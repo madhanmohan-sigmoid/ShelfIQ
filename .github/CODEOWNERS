@@ -1,0 +1,5 @@
+# CODEOWNERS file to enforce approvals for QA and Prod branches
+ 
+# QA branch approvals
+*    @SChour02_KVUE @VBarnw01_KVUE @PChaur02_KVUE @NShar013_KVUE @SGanes04_KVUE 
+ 

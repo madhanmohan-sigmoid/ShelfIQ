@@ -1,0 +1,52 @@
+application_integration:
+  dockerImage: "ts-docker.artifactrepo.kenvue.com/ts-docker/python-buildagent:3.13.9"
+  #dockerImage: "kenvue.jfrog.io/ts-docker/python-buildagent:3.13.6"
+  Disable_CD: False 
+  Deploy_Custom_Artifact: "False"
+  Enable_Semantic_Versioning: "True"
+  BRANCHING_STRATEGY: "gitflow"
+  PUBLISH_FEATURE_ARTIFACTS: "true"
+  buildType: "null"
+  NEXUS_DOCKER_BASE_IMAGE_ARTIFACTORY_REPO: "ts-docker"
+
+application_deployment:
+  dev:
+     DEPLOY_LIB_BRANCH_NAME: "Develop"  # change the branch to dev
+     DEPLOY_LIB: "true"
+     DEPLOY_LIB_MSP_REPO_CONFIG_FILE_PATH: "Values/dev-fe.yaml"
+     #DEPLOY_LIB_MSP_REPO_URL: "https://github.com/DATA-KACR/ace-ui-helm-charts.git"    # same as docs
+     DEPLOY_LIB_MSP_REPO_URL: "https://bitbucket.org/kenvue/ace-ui-helm-charts.git"
+     DEPLOY_LIB_MSP_REPO_FEATURE_BRANCH_NAME: "feature-ace-ui1"   # branch which we create 
+     #DEPLOY_LIB_MSP_REPO_PROJECT_NAME: "DATA-KACR"   # project will be kenvue for all
+     DEPLOY_LIB_MSP_REPO_PROJECT_NAME: "kenvue"
+     DEPLOY_LIB_MSP_REPO_REPOSITORY_SLUG: "ace-ui-helm-charts"   # repo name from bitbucket 
+     DEPLOY_LIB_MSP_REQUEST_TYPE: "pr_merge"
+     #DEPLOY_LIB_MSP_GITPROVIDER: "github"
+
+
+
+  qa:
+     DEPLOY_LIB_BRANCH_NAME: "qa"
+     DEPLOY_LIB: "true"
+     DEPLOY_LIB_MSP_REPO_CONFIG_FILE_PATH: "Values/qa-fe.yaml"
+     #DEPLOY_LIB_MSP_REPO_URL: "https://github.com/DATA-KACR/ace-ui-helm-charts.git"    # same as docs
+     DEPLOY_LIB_MSP_REPO_URL: "https://bitbucket.org/kenvue/ace-ui-helm-charts.git"
+     DEPLOY_LIB_MSP_REPO_FEATURE_BRANCH_NAME: "feature-ace-ui1"   # branch which we create 
+     #DEPLOY_LIB_MSP_REPO_PROJECT_NAME: "DATA-KACR"   # project will be kenvue for all
+     DEPLOY_LIB_MSP_REPO_PROJECT_NAME: "kenvue"
+     DEPLOY_LIB_MSP_REPO_REPOSITORY_SLUG: "ace-ui-helm-charts"   # repo name from bitbucket 
+     DEPLOY_LIB_MSP_REQUEST_TYPE: "pr_merge"
+     #DEPLOY_LIB_MSP_GITPROVIDER: "github"
+
+  prod:
+     DEPLOY_LIB_BRANCH_NAME: "master"
+     DEPLOY_LIB: "true"
+     DEPLOY_LIB_MSP_REPO_CONFIG_FILE_PATH: "Values/prod-fe.yaml"
+     #DEPLOY_LIB_MSP_REPO_URL: "https://github.com/DATA-KACR/ace-ui-helm-charts.git"    # same as docs
+     DEPLOY_LIB_MSP_REPO_URL: "https://bitbucket.org/kenvue/ace-ui-helm-charts.git"
+     DEPLOY_LIB_MSP_REPO_FEATURE_BRANCH_NAME: "feature-ace-ui1"   # branch which we create 
+     #DEPLOY_LIB_MSP_REPO_PROJECT_NAME: "DATA-KACR"   # project will be kenvue for all
+     DEPLOY_LIB_MSP_REPO_PROJECT_NAME: "kenvue"
+     DEPLOY_LIB_MSP_REPO_REPOSITORY_SLUG: "ace-ui-helm-charts"   # repo name from bitbucket 
+     DEPLOY_LIB_MSP_REQUEST_TYPE: "pr_merge"
+     #DEPLOY_LIB_MSP_GITPROVIDER: "github"

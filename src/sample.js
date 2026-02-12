@@ -1,0 +1,4490 @@
+export const violations_response = 
+{
+"status": 200,
+"message": "Success",
+"data": {
+"planogram_instance_id": "41ea7a02-3dd5-4c34-99b8-211384076d36",
+"violation_count": 189,
+"violations": [
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "KIDS",
+"extras": {
+"bay": 1,
+"shelf": 1,
+"product_tpnb_list": "61452116, 86016064, 85992832, 85992262, 81116754, 88903192",
+"product_id_list": "92162e89-75d9-47a8-af29-9d7e7769ac8b, dc5493cf-843e-408f-811f-149351970c17, 1ddbd0dd-3f2d-4e35-96b5-ce99d0742d3e, 1b18c379-8de7-4686-b9e7-7ad95d15eb0b, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "KIDS",
+"extras": {
+"bay": 1,
+"shelf": 2,
+"product_tpnb_list": "80184938, 85988423, 91713372, 74168299, 81116731, 84538526, 61489561, 96300789",
+"product_id_list": "7b151fca-93cf-4b86-be94-e61d612db227, b96aef40-ada1-45d3-a026-8f301ce5f82c, 34a797ab-9421-4fb7-ac9f-800b4726fcb3, 1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2, a1951ede-1efc-4f0f-a099-6a1cc710ca39"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup",
+"level_value": "KIDS",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "61452116, 86016064, 85992832, 85992262, 81116754, 88903192",
+"product_tpnb_list_shelf_2": "80184938, 85988423, 91713372, 74168299, 81116731, 84538526, 61489561, 96300789",
+"product_id_list_shelf_1": "92162e89-75d9-47a8-af29-9d7e7769ac8b, dc5493cf-843e-408f-811f-149351970c17, 1ddbd0dd-3f2d-4e35-96b5-ce99d0742d3e, 1b18c379-8de7-4686-b9e7-7ad95d15eb0b, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1",
+"product_id_list_shelf_2": "7b151fca-93cf-4b86-be94-e61d612db227, b96aef40-ada1-45d3-a026-8f301ce5f82c, 34a797ab-9421-4fb7-ac9f-800b4726fcb3, 1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2, a1951ede-1efc-4f0f-a099-6a1cc710ca39"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "POWERED BRUSH",
+"extras": {
+"bay": 1,
+"shelf": 4,
+"product_tpnb_list": "83909251, 88898672, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+"product_id_list": "25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "POWERED BRUSH",
+"extras": {
+"bay": 1,
+"shelf": 5,
+"product_tpnb_list": "90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list": "798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup",
+"level_value": "POWERED BRUSH",
+"extras": {
+"bay": 1,
+"product_tpnb_list": "92000950, 83909251, 88898672, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list": "c07ed270-f072-422b-a181-7a0f2c91f4e6, 25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup",
+"level_value": "POWERED BRUSH",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "92000950, 92000950, 83909251, 88898672, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+"product_tpnb_list_shelf_2": "83909251, 88898672, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list_shelf_1": "c07ed270-f072-422b-a181-7a0f2c91f4e6, c07ed270-f072-422b-a181-7a0f2c91f4e6, 25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf",
+"product_id_list_shelf_2": "25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "MANUAL BRUSH",
+"extras": {
+"bay": 1,
+"shelf": 3,
+"product_tpnb_list": "85112602, 85112648, 73545868, 73397564, 80568675, 92048040, 67934516, 57565198, 89261652, 63820517, 73325985, 87181352, 60227614, 92008059, 67369291",
+"product_id_list": "8465a027-a15a-49fb-9490-a919dca5152d, 9bfec8c7-27b8-4f53-b5a2-5fb9679c22ac, 66fdb473-a357-481b-848a-bf5fd102d8ea, 422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0, dcc1d818-58de-4309-80cb-c3fc62cbe36d, f1cd0358-88df-4bec-83d0-35759a82a8c7, bfbdced2-59a4-427f-8c84-a7c6938d1011, dba070d6-805e-47b1-a5a1-053a4a2eb240, dab31f5b-3b31-4ce4-85ee-d6b3e634a598, 99a98990-36bb-417c-b636-5e2014692176, 1c4d4fee-cc98-4475-8056-6610f866a6bf, 99a2bdae-cc9f-4b78-b172-bea1c48cf35b, 472aac76-046f-46c6-8f91-6cd9024fc66e, 367c0195-d05d-4340-8937-b13b177dc6b7"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup",
+"level_value": "MANUAL BRUSH",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "85112602, 85112648, 73545868, 73397564, 80568675, 92048040, 67934516, 57565198, 89261652, 63820517, 73325985, 87181352, 60227614, 92008059, 67369291",
+"product_tpnb_list_shelf_2": "57522658",
+"product_id_list_shelf_1": "8465a027-a15a-49fb-9490-a919dca5152d, 9bfec8c7-27b8-4f53-b5a2-5fb9679c22ac, 66fdb473-a357-481b-848a-bf5fd102d8ea, 422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0, dcc1d818-58de-4309-80cb-c3fc62cbe36d, f1cd0358-88df-4bec-83d0-35759a82a8c7, bfbdced2-59a4-427f-8c84-a7c6938d1011, dba070d6-805e-47b1-a5a1-053a4a2eb240, dab31f5b-3b31-4ce4-85ee-d6b3e634a598, 99a98990-36bb-417c-b636-5e2014692176, 1c4d4fee-cc98-4475-8056-6610f866a6bf, 99a2bdae-cc9f-4b78-b172-bea1c48cf35b, 472aac76-046f-46c6-8f91-6cd9024fc66e, 367c0195-d05d-4340-8937-b13b177dc6b7",
+"product_id_list_shelf_2": "82d338c9-c326-4c3a-ac1f-699866b14de2"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "DENTAL ACCESSORIES",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "73560688, 73560671, 54213708, 56906531, 92002296, 91882153, 91493659, 91886454, 91712701, 91777733, 91892642, 91832518, 65732866, 92340420, 57539408",
+"product_id_list": "fc4f3ef2-4bac-4809-b588-288530b43ea7, d45670b3-c10a-48d3-ab10-532fe281a45e, fabb3a27-d658-4a19-8bbb-09393a3e73b9, 508bd6a7-1b16-442c-816e-4afca7507caa, fb19c791-56d0-4af0-ab51-c7ffaab5b831, bef64681-221e-4d3e-9a89-8d1dae6e0c43, 44173eff-d3c1-45d3-8565-8fad14b1e64e, 02254f07-8456-415f-8eab-823ed7e21146, 62b3931b-68a9-465b-a2aa-2dd88754ba9e, 61532d53-dacf-4bf5-851d-ecae514c61b9, aeeda34f-4fa8-44fa-80fb-07f91f2fc6d6, 4bac881d-87c3-41a6-bf65-d9b31b0fc99f, db6a11d8-7a89-45f3-859b-07ca8520454c, 66b7929e-f89e-46b2-8dab-25c48fc6552f, 6625b10c-4960-4161-8bcc-5dd20b7c3035"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "REGULAR TOOTHPASTE",
+"extras": {
+"bay": 2,
+"shelf": 1,
+"product_tpnb_list": "84928779, 51769631, 93038799, 96305409, 96233102",
+"product_id_list": "91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "REGULAR TOOTHPASTE",
+"extras": {
+"bay": 2,
+"shelf": 2,
+"product_tpnb_list": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264",
+"product_id_list": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "REGULAR TOOTHPASTE",
+"extras": {
+"bay": 2,
+"shelf": 3,
+"product_tpnb_list": "85878611, 83591745, 85878605",
+"product_id_list": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "REGULAR TOOTHPASTE",
+"extras": {
+"bay": 2,
+"shelf": 4,
+"product_tpnb_list": "96094670, 96093791, 96103199",
+"product_id_list": "95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "REGULAR TOOTHPASTE",
+"extras": {
+"bay": 2,
+"shelf": 5,
+"product_tpnb_list": "93547254, 96096534, 93422177, 93278854, 93282036",
+"product_id_list": "e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "REGULAR TOOTHPASTE",
+"extras": {
+"bay": 2,
+"shelf": 7,
+"product_tpnb_list": "84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+"product_id_list": "702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup",
+"level_value": "REGULAR TOOTHPASTE",
+"extras": {
+"bay": 2,
+"product_tpnb_list": "84928779, 51769631, 93038799, 96305409, 96233102, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+"product_id_list": "91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup",
+"level_value": "REGULAR TOOTHPASTE",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "84928779, 51769631, 93038799, 96305409, 96233102, 84928779, 51769631, 93038799, 96305409, 96233102, 84928779, 51769631, 93038799, 96305409, 96233102, 84928779, 51769631, 93038799, 96305409, 96233102, 84928779, 51769631, 93038799, 96305409, 96233102, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 85878611, 83591745, 85878605, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036",
+"product_tpnb_list_shelf_2": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766, 93547254, 96096534, 93422177, 93278854, 93282036, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+"product_id_list_shelf_1": "91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912",
+"product_id_list_shelf_2": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "WHITENING TOOTHPASTE",
+"extras": {
+"bay": 2,
+"shelf": 1,
+"product_tpnb_list": "87229283, 85718491",
+"product_id_list": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "WHITENING TOOTHPASTE",
+"extras": {
+"bay": 2,
+"shelf": 3,
+"product_tpnb_list": "83591722, 85983699, 96172559",
+"product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "WHITENING TOOTHPASTE",
+"extras": {
+"bay": 2,
+"shelf": 6,
+"product_tpnb_list": "82781159, 80568632, 89263670, 92192167, 90784098, 93419781, 85976725",
+"product_id_list": "a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup",
+"level_value": "WHITENING TOOTHPASTE",
+"extras": {
+"bay": 2,
+"product_tpnb_list": "87229283, 85718491, 83591722, 85983699, 96172559, 92058340, 67381724, 82781159, 80568632, 89263670, 92192167, 90784098, 93419781, 85976725",
+"product_id_list": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 6cdd4291-067a-4878-9a37-bb204fc09aca, 76c2f05b-54e2-48d6-9e1f-c69102a16719, a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup",
+"level_value": "WHITENING TOOTHPASTE",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "87229283, 85718491, 87229283, 85718491, 87229283, 85718491, 87229283, 85718491, 83591722, 85983699, 96172559, 83591722, 85983699, 96172559, 83591722, 85983699, 96172559, 92058340, 92058340, 67381724",
+"product_tpnb_list_shelf_2": "83591722, 85983699, 96172559, 92058340, 67381724, 82781159, 80568632, 89263670, 92192167, 90784098, 93419781, 85976725, 92058340, 67381724, 82781159, 80568632, 89263670, 92192167, 90784098, 93419781, 85976725, 67381724, 82781159, 80568632, 89263670, 92192167, 90784098, 93419781, 85976725, 82781159, 80568632, 89263670, 92192167, 90784098, 93419781, 85976725",
+"product_id_list_shelf_1": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7, eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7, eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7, eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 6cdd4291-067a-4878-9a37-bb204fc09aca, 6cdd4291-067a-4878-9a37-bb204fc09aca, 76c2f05b-54e2-48d6-9e1f-c69102a16719",
+"product_id_list_shelf_2": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 6cdd4291-067a-4878-9a37-bb204fc09aca, 76c2f05b-54e2-48d6-9e1f-c69102a16719, a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41, 6cdd4291-067a-4878-9a37-bb204fc09aca, 76c2f05b-54e2-48d6-9e1f-c69102a16719, a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41, 76c2f05b-54e2-48d6-9e1f-c69102a16719, a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41, a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "SENSITIVE TOOTHPASTE",
+"extras": {
+"bay": 2,
+"shelf": 4,
+"product_tpnb_list": "79360074, 94043497, 96095161",
+"product_id_list": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "SENSITIVE TOOTHPASTE",
+"extras": {
+"bay": 3,
+"shelf": 5,
+"product_tpnb_list": "88905184, 86420938, 91892607, 93276120, 79164883, 79164670",
+"product_id_list": "bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "SENSITIVE TOOTHPASTE",
+"extras": {
+"bay": 3,
+"shelf": 6,
+"product_tpnb_list": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+"product_id_list": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "SENSITIVE TOOTHPASTE",
+"extras": {
+"bay": 3,
+"shelf": 7,
+"product_tpnb_list": "64521242, 87228071, 87584794, 93337088, 92865921, 96306760",
+"product_id_list": "1603fd1f-3b79-4750-aebd-b80a8d30442f, 2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup",
+"level_value": "SENSITIVE TOOTHPASTE",
+"extras": {
+"bay": 2,
+"product_tpnb_list": "79360074, 94043497, 96095161, 94044277, 92000563",
+"product_id_list": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25, 89fb73e2-41b9-4dbc-a689-e078391bc863, 5cdb46e9-6a86-4a5a-ae8d-ad35253dd361"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup",
+"level_value": "SENSITIVE TOOTHPASTE",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "79360074, 94043497, 96095161, 79360074, 94043497, 96095161, 94044277",
+"product_tpnb_list_shelf_2": "94044277, 92000563, 92000563",
+"product_id_list_shelf_1": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25, a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25, 89fb73e2-41b9-4dbc-a689-e078391bc863",
+"product_id_list_shelf_2": "89fb73e2-41b9-4dbc-a689-e078391bc863, 5cdb46e9-6a86-4a5a-ae8d-ad35253dd361, 5cdb46e9-6a86-4a5a-ae8d-ad35253dd361"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup",
+"level_value": "SENSITIVE TOOTHPASTE",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 3,
+"product_tpnb_list_shelf_1": "88905184, 86420938, 91892607, 93276120, 79164883, 79164670, 88905184, 86420938, 91892607, 93276120, 79164883, 79164670, 82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+"product_tpnb_list_shelf_2": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869, 64521242, 87228071, 87584794, 93337088, 92865921, 96306760, 64521242, 87228071, 87584794, 93337088, 92865921, 96306760",
+"product_id_list_shelf_1": "bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5",
+"product_id_list_shelf_2": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "DENTURE",
+"extras": {
+"bay": 2,
+"shelf": 8,
+"product_tpnb_list": "96302729, 96092014, 96099957, 60237274, 85718456, 78173522, 81407370",
+"product_id_list": "0470bdfe-1483-47dd-906d-70530f7fe331, 4421f885-1dd8-4c59-9f98-473d8c143939, d644ace5-3b3f-4ec2-987e-953bc84a25a0, d1807380-5131-4f41-b478-8ef0dde0233e, da62e198-b4f8-4476-ba31-65583670fbe6, 14a86ce2-2f25-468a-baf2-c43742608efc, 1ad3849c-03a8-4d94-9d34-c3deb1395c7f"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "MOUTHWASH",
+"extras": {
+"bay": 3,
+"shelf": 1,
+"product_tpnb_list": "85290842, 85290856, 86006295, 87689221, 51164799, 51257776, 76900432",
+"product_id_list": "374514e1-eb45-4cae-b5ee-831be9bee526, c5610686-4a44-4843-8a90-6f4540969140, c07af7e8-268f-445c-a82b-2b3a1258fd7a, 4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "MOUTHWASH",
+"extras": {
+"bay": 3,
+"shelf": 2,
+"product_tpnb_list": "86436505, 52640303, 67902150, 52327548, 57527428",
+"product_id_list": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "MOUTHWASH",
+"extras": {
+"bay": 3,
+"shelf": 3,
+"product_tpnb_list": "64708264, 61463009, 56945576, 75090324",
+"product_id_list": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup",
+"level_value": "MOUTHWASH",
+"extras": {
+"bay": 3,
+"shelf": 4,
+"product_tpnb_list": "53928043, 50690223, 56522201, 87233899, 87227826",
+"product_id_list": "a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e, a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup",
+"level_value": "MOUTHWASH",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 3,
+"product_tpnb_list_shelf_1": "85290842, 85290856, 86006295, 87689221, 51164799, 51257776, 76900432, 85290842, 85290856, 86006295, 87689221, 51164799, 51257776, 76900432, 85290842, 85290856, 86006295, 87689221, 51164799, 51257776, 76900432, 86436505, 52640303, 67902150, 52327548, 57527428, 86436505, 52640303, 67902150, 52327548, 57527428, 64708264, 61463009, 56945576, 75090324",
+"product_tpnb_list_shelf_2": "86436505, 52640303, 67902150, 52327548, 57527428, 64708264, 61463009, 56945576, 75090324, 53928043, 50690223, 56522201, 87233899, 87227826, 64708264, 61463009, 56945576, 75090324, 53928043, 50690223, 56522201, 87233899, 87227826, 53928043, 50690223, 56522201, 87233899, 87227826",
+"product_id_list_shelf_1": "374514e1-eb45-4cae-b5ee-831be9bee526, c5610686-4a44-4843-8a90-6f4540969140, c07af7e8-268f-445c-a82b-2b3a1258fd7a, 4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, 374514e1-eb45-4cae-b5ee-831be9bee526, c5610686-4a44-4843-8a90-6f4540969140, c07af7e8-268f-445c-a82b-2b3a1258fd7a, 4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, 374514e1-eb45-4cae-b5ee-831be9bee526, c5610686-4a44-4843-8a90-6f4540969140, c07af7e8-268f-445c-a82b-2b3a1258fd7a, 4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5, e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5, f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03",
+"product_id_list_shelf_2": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5, f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03, a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e, a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce, f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03, a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e, a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce, a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e, a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "KIDS__AQUAFRESH",
+"extras": {
+"bay": 1,
+"shelf": 1,
+"product_tpnb_list": "61452116, 81116754, 88903192",
+"product_id_list": "92162e89-75d9-47a8-af29-9d7e7769ac8b, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "KIDS__AQUAFRESH",
+"extras": {
+"bay": 1,
+"shelf": 2,
+"product_tpnb_list": "74168299, 81116731, 84538526, 61489561",
+"product_id_list": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand",
+"level_value": "KIDS__AQUAFRESH",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "61452116, 81116754, 88903192",
+"product_tpnb_list_shelf_2": "74168299, 81116731, 84538526, 61489561",
+"product_id_list_shelf_1": "92162e89-75d9-47a8-af29-9d7e7769ac8b, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1",
+"product_id_list_shelf_2": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "KIDS__TESCO PROFORMULA",
+"extras": {
+"bay": 1,
+"shelf": 1,
+"product_tpnb_list": "85992832, 85992262",
+"product_id_list": "1ddbd0dd-3f2d-4e35-96b5-ce99d0742d3e, 1b18c379-8de7-4686-b9e7-7ad95d15eb0b"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "KIDS__COLGATE",
+"extras": {
+"bay": 1,
+"shelf": 2,
+"product_tpnb_list": "80184938, 85988423",
+"product_id_list": "7b151fca-93cf-4b86-be94-e61d612db227, b96aef40-ada1-45d3-a026-8f301ce5f82c"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "POWERED BRUSH__ORAL-B",
+"extras": {
+"bay": 1,
+"shelf": 4,
+"product_tpnb_list": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+"product_id_list": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "POWERED BRUSH__ORAL-B",
+"extras": {
+"bay": 1,
+"shelf": 5,
+"product_tpnb_list": "90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list": "798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand",
+"level_value": "POWERED BRUSH__ORAL-B",
+"extras": {
+"bay": 1,
+"product_tpnb_list": "92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list": "c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand",
+"level_value": "POWERED BRUSH__ORAL-B",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "92000950, 92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+"product_tpnb_list_shelf_2": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list_shelf_1": "c07ed270-f072-422b-a181-7a0f2c91f4e6, c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf",
+"product_id_list_shelf_2": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "MANUAL BRUSH__PRO FORMULA",
+"extras": {
+"bay": 1,
+"shelf": 3,
+"product_tpnb_list": "85112648, 73545868",
+"product_id_list": "9bfec8c7-27b8-4f53-b5a2-5fb9679c22ac, 66fdb473-a357-481b-848a-bf5fd102d8ea"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "MANUAL BRUSH__ORAL-B",
+"extras": {
+"bay": 1,
+"shelf": 3,
+"product_tpnb_list": "73397564, 80568675",
+"product_id_list": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand",
+"level_value": "MANUAL BRUSH__ORAL-B",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "73397564, 80568675",
+"product_tpnb_list_shelf_2": "57522658",
+"product_id_list_shelf_1": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0",
+"product_id_list_shelf_2": "82d338c9-c326-4c3a-ac1f-699866b14de2"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "MANUAL BRUSH__COLGATE",
+"extras": {
+"bay": 1,
+"shelf": 3,
+"product_tpnb_list": "92048040, 67934516, 57565198, 89261652, 63820517, 73325985, 87181352, 60227614, 92008059, 67369291",
+"product_id_list": "dcc1d818-58de-4309-80cb-c3fc62cbe36d, f1cd0358-88df-4bec-83d0-35759a82a8c7, bfbdced2-59a4-427f-8c84-a7c6938d1011, dba070d6-805e-47b1-a5a1-053a4a2eb240, dab31f5b-3b31-4ce4-85ee-d6b3e634a598, 99a98990-36bb-417c-b636-5e2014692176, 1c4d4fee-cc98-4475-8056-6610f866a6bf, 99a2bdae-cc9f-4b78-b172-bea1c48cf35b, 472aac76-046f-46c6-8f91-6cd9024fc66e, 367c0195-d05d-4340-8937-b13b177dc6b7"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "POWERED BRUSH__PRO FORMULA",
+"extras": {
+"bay": 1,
+"shelf": 4,
+"product_tpnb_list": "83909251, 88898672",
+"product_id_list": "25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "DENTAL ACCESSORIES__PRO FORMULA",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "73560688, 73560671, 91886454, 91712701, 91777733, 91892642, 91832518",
+"product_id_list": "fc4f3ef2-4bac-4809-b588-288530b43ea7, d45670b3-c10a-48d3-ab10-532fe281a45e, 02254f07-8456-415f-8eab-823ed7e21146, 62b3931b-68a9-465b-a2aa-2dd88754ba9e, 61532d53-dacf-4bf5-851d-ecae514c61b9, aeeda34f-4fa8-44fa-80fb-07f91f2fc6d6, 4bac881d-87c3-41a6-bf65-d9b31b0fc99f"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "DENTAL ACCESSORIES__ORAL-B",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "54213708, 56906531",
+"product_id_list": "fabb3a27-d658-4a19-8bbb-09393a3e73b9, 508bd6a7-1b16-442c-816e-4afca7507caa"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "DENTAL ACCESSORIES__PLACKERS",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "92002296, 91882153, 91493659",
+"product_id_list": "fb19c791-56d0-4af0-ab51-c7ffaab5b831, bef64681-221e-4d3e-9a89-8d1dae6e0c43, 44173eff-d3c1-45d3-8565-8fad14b1e64e"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "DENTAL ACCESSORIES__TEPE",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "65732866, 92340420, 57539408",
+"product_id_list": "db6a11d8-7a89-45f3-859b-07ca8520454c, 66b7929e-f89e-46b2-8dab-25c48fc6552f, 6625b10c-4960-4161-8bcc-5dd20b7c3035"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "REGULAR TOOTHPASTE__AQUAFRESH",
+"extras": {
+"bay": 2,
+"shelf": 1,
+"product_tpnb_list": "93038799, 96305409, 96233102",
+"product_id_list": "1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "WHITENING TOOTHPASTE__ARM & HAMMER",
+"extras": {
+"bay": 2,
+"shelf": 1,
+"product_tpnb_list": "87229283, 85718491",
+"product_id_list": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "REGULAR TOOTHPASTE__COLGATE",
+"extras": {
+"bay": 2,
+"shelf": 2,
+"product_tpnb_list": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264",
+"product_id_list": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "REGULAR TOOTHPASTE__COLGATE",
+"extras": {
+"bay": 2,
+"shelf": 3,
+"product_tpnb_list": "85878611, 83591745, 85878605",
+"product_id_list": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "REGULAR TOOTHPASTE__COLGATE",
+"extras": {
+"bay": 2,
+"shelf": 4,
+"product_tpnb_list": "96094670, 96093791, 96103199",
+"product_id_list": "95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "REGULAR TOOTHPASTE__COLGATE",
+"extras": {
+"bay": 2,
+"shelf": 5,
+"product_tpnb_list": "93547254, 96096534, 93422177, 93278854, 93282036",
+"product_id_list": "e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand",
+"level_value": "REGULAR TOOTHPASTE__COLGATE",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199",
+"product_tpnb_list_shelf_2": "85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 93547254, 96096534, 93422177, 93278854, 93282036",
+"product_id_list_shelf_1": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf",
+"product_id_list_shelf_2": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "WHITENING TOOTHPASTE__COLGATE",
+"extras": {
+"bay": 2,
+"shelf": 3,
+"product_tpnb_list": "83591722, 85983699, 96172559",
+"product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "WHITENING TOOTHPASTE__COLGATE",
+"extras": {
+"bay": 2,
+"shelf": 6,
+"product_tpnb_list": "90784098, 93419781, 85976725",
+"product_id_list": "6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand",
+"level_value": "WHITENING TOOTHPASTE__COLGATE",
+"extras": {
+"bay": 2,
+"product_tpnb_list": "83591722, 85983699, 96172559, 67381724, 90784098, 93419781, 85976725",
+"product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand",
+"level_value": "WHITENING TOOTHPASTE__COLGATE",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "83591722, 85983699, 96172559, 83591722, 85983699, 96172559, 67381724",
+"product_tpnb_list_shelf_2": "67381724, 90784098, 93419781, 85976725, 90784098, 93419781, 85976725",
+"product_id_list_shelf_1": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719",
+"product_id_list_shelf_2": "76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "SENSITIVE TOOTHPASTE__COLGATE",
+"extras": {
+"bay": 2,
+"shelf": 4,
+"product_tpnb_list": "79360074, 94043497, 96095161",
+"product_id_list": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "WHITENING TOOTHPASTE__ORAL-B",
+"extras": {
+"bay": 2,
+"shelf": 6,
+"product_tpnb_list": "82781159, 80568632, 89263670, 92192167",
+"product_id_list": "a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand",
+"level_value": "WHITENING TOOTHPASTE__ORAL-B",
+"extras": {
+"bay": 2,
+"product_tpnb_list": "92058340, 82781159, 80568632, 89263670, 92192167",
+"product_id_list": "6cdd4291-067a-4878-9a37-bb204fc09aca, a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand",
+"level_value": "WHITENING TOOTHPASTE__ORAL-B",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "92058340",
+"product_tpnb_list_shelf_2": "82781159, 80568632, 89263670, 92192167",
+"product_id_list_shelf_1": "6cdd4291-067a-4878-9a37-bb204fc09aca",
+"product_id_list_shelf_2": "a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "REGULAR TOOTHPASTE__ORAL-B",
+"extras": {
+"bay": 2,
+"shelf": 7,
+"product_tpnb_list": "84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+"product_id_list": "702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand",
+"level_value": "SENSITIVE TOOTHPASTE__ORAL-B",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "94044277",
+"product_tpnb_list_shelf_2": "92000563",
+"product_id_list_shelf_1": "89fb73e2-41b9-4dbc-a689-e078391bc863",
+"product_id_list_shelf_2": "5cdb46e9-6a86-4a5a-ae8d-ad35253dd361"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "DENTURE__FIXODENT",
+"extras": {
+"bay": 2,
+"shelf": 8,
+"product_tpnb_list": "96302729, 96092014, 96099957",
+"product_id_list": "0470bdfe-1483-47dd-906d-70530f7fe331, 4421f885-1dd8-4c59-9f98-473d8c143939, d644ace5-3b3f-4ec2-987e-953bc84a25a0"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "DENTURE__POLIGRIP",
+"extras": {
+"bay": 2,
+"shelf": 8,
+"product_tpnb_list": "60237274, 85718456",
+"product_id_list": "d1807380-5131-4f41-b478-8ef0dde0233e, da62e198-b4f8-4476-ba31-65583670fbe6"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "MOUTHWASH__COLGATE",
+"extras": {
+"bay": 3,
+"shelf": 1,
+"product_tpnb_list": "87689221, 51164799, 51257776, 76900432",
+"product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "MOUTHWASH__COLGATE",
+"extras": {
+"bay": 3,
+"shelf": 4,
+"product_tpnb_list": "53928043, 50690223",
+"product_id_list": "a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand",
+"level_value": "MOUTHWASH__COLGATE",
+"extras": {
+"bay": 3,
+"product_tpnb_list": "87689221, 51164799, 51257776, 76900432, 53928043, 50690223",
+"product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand",
+"level_value": "MOUTHWASH__COLGATE",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 3,
+"product_tpnb_list_shelf_1": "87689221, 51164799, 51257776, 76900432",
+"product_tpnb_list_shelf_2": "53928043, 50690223",
+"product_id_list_shelf_1": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159",
+"product_id_list_shelf_2": "a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "MOUTHWASH__LISTERINE",
+"extras": {
+"bay": 3,
+"shelf": 2,
+"product_tpnb_list": "86436505, 52640303, 67902150, 52327548, 57527428",
+"product_id_list": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "MOUTHWASH__LISTERINE",
+"extras": {
+"bay": 3,
+"shelf": 3,
+"product_tpnb_list": "64708264, 61463009, 56945576, 75090324",
+"product_id_list": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand",
+"level_value": "MOUTHWASH__LISTERINE",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 3,
+"product_tpnb_list_shelf_1": "86436505, 52640303, 67902150, 52327548, 57527428",
+"product_tpnb_list_shelf_2": "64708264, 61463009, 56945576, 75090324",
+"product_id_list_shelf_1": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5",
+"product_id_list_shelf_2": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "MOUTHWASH__CORSODYL",
+"extras": {
+"bay": 3,
+"shelf": 4,
+"product_tpnb_list": "56522201, 87233899, 87227826",
+"product_id_list": "a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "SENSITIVE TOOTHPASTE__CORSODYL",
+"extras": {
+"bay": 3,
+"shelf": 5,
+"product_tpnb_list": "88905184, 86420938, 91892607, 93276120",
+"product_id_list": "bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE",
+"extras": {
+"bay": 3,
+"shelf": 5,
+"product_tpnb_list": "79164883, 79164670",
+"product_id_list": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE",
+"extras": {
+"bay": 3,
+"shelf": 6,
+"product_tpnb_list": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+"product_id_list": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE",
+"extras": {
+"bay": 3,
+"shelf": 7,
+"product_tpnb_list": "64521242, 92865921, 96306760",
+"product_id_list": "1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 3,
+"product_tpnb_list_shelf_1": "79164883, 79164670, 79164883, 79164670, 82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+"product_tpnb_list_shelf_2": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869, 64521242, 92865921, 96306760, 64521242, 92865921, 96306760",
+"product_id_list_shelf_1": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5",
+"product_id_list_shelf_2": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand",
+"level_value": "SENSITIVE TOOTHPASTE__PRONAMEL",
+"extras": {
+"bay": 3,
+"shelf": 7,
+"product_tpnb_list": "87228071, 87584794, 93337088",
+"product_id_list": "2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "KIDS__AQUAFRESH__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 1,
+"product_tpnb_list": "61452116, 81116754, 88903192",
+"product_id_list": "92162e89-75d9-47a8-af29-9d7e7769ac8b, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "KIDS__AQUAFRESH__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 2,
+"product_tpnb_list": "74168299, 81116731, 84538526, 61489561",
+"product_id_list": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform",
+"level_value": "KIDS__AQUAFRESH__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "61452116, 81116754, 88903192",
+"product_tpnb_list_shelf_2": "74168299, 81116731, 84538526, 61489561",
+"product_id_list_shelf_1": "92162e89-75d9-47a8-af29-9d7e7769ac8b, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1",
+"product_id_list_shelf_2": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "KIDS__TESCO PROFORMULA__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 1,
+"product_tpnb_list": "85992832, 85992262",
+"product_id_list": "1ddbd0dd-3f2d-4e35-96b5-ce99d0742d3e, 1b18c379-8de7-4686-b9e7-7ad95d15eb0b"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "KIDS__COLGATE__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 2,
+"product_tpnb_list": "80184938, 85988423",
+"product_id_list": "7b151fca-93cf-4b86-be94-e61d612db227, b96aef40-ada1-45d3-a026-8f301ce5f82c"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "POWERED BRUSH__ORAL-B__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 4,
+"product_tpnb_list": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+"product_id_list": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "POWERED BRUSH__ORAL-B__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 5,
+"product_tpnb_list": "90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list": "798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand__platform",
+"level_value": "POWERED BRUSH__ORAL-B__UNKNOWN",
+"extras": {
+"bay": 1,
+"product_tpnb_list": "92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list": "c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform",
+"level_value": "POWERED BRUSH__ORAL-B__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "92000950, 92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+"product_tpnb_list_shelf_2": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list_shelf_1": "c07ed270-f072-422b-a181-7a0f2c91f4e6, c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf",
+"product_id_list_shelf_2": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "MANUAL BRUSH__PRO FORMULA__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 3,
+"product_tpnb_list": "85112648, 73545868",
+"product_id_list": "9bfec8c7-27b8-4f53-b5a2-5fb9679c22ac, 66fdb473-a357-481b-848a-bf5fd102d8ea"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "MANUAL BRUSH__ORAL-B__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 3,
+"product_tpnb_list": "73397564, 80568675",
+"product_id_list": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform",
+"level_value": "MANUAL BRUSH__ORAL-B__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "73397564, 80568675",
+"product_tpnb_list_shelf_2": "57522658",
+"product_id_list_shelf_1": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0",
+"product_id_list_shelf_2": "82d338c9-c326-4c3a-ac1f-699866b14de2"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "MANUAL BRUSH__COLGATE__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 3,
+"product_tpnb_list": "92048040, 67934516, 57565198, 89261652, 63820517, 73325985, 87181352, 60227614, 92008059, 67369291",
+"product_id_list": "dcc1d818-58de-4309-80cb-c3fc62cbe36d, f1cd0358-88df-4bec-83d0-35759a82a8c7, bfbdced2-59a4-427f-8c84-a7c6938d1011, dba070d6-805e-47b1-a5a1-053a4a2eb240, dab31f5b-3b31-4ce4-85ee-d6b3e634a598, 99a98990-36bb-417c-b636-5e2014692176, 1c4d4fee-cc98-4475-8056-6610f866a6bf, 99a2bdae-cc9f-4b78-b172-bea1c48cf35b, 472aac76-046f-46c6-8f91-6cd9024fc66e, 367c0195-d05d-4340-8937-b13b177dc6b7"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "POWERED BRUSH__PRO FORMULA__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 4,
+"product_tpnb_list": "83909251, 88898672",
+"product_id_list": "25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "DENTAL ACCESSORIES__PRO FORMULA__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "73560688, 73560671, 91886454, 91712701, 91777733, 91892642, 91832518",
+"product_id_list": "fc4f3ef2-4bac-4809-b588-288530b43ea7, d45670b3-c10a-48d3-ab10-532fe281a45e, 02254f07-8456-415f-8eab-823ed7e21146, 62b3931b-68a9-465b-a2aa-2dd88754ba9e, 61532d53-dacf-4bf5-851d-ecae514c61b9, aeeda34f-4fa8-44fa-80fb-07f91f2fc6d6, 4bac881d-87c3-41a6-bf65-d9b31b0fc99f"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "DENTAL ACCESSORIES__ORAL-B__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "54213708, 56906531",
+"product_id_list": "fabb3a27-d658-4a19-8bbb-09393a3e73b9, 508bd6a7-1b16-442c-816e-4afca7507caa"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "DENTAL ACCESSORIES__PLACKERS__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "92002296, 91882153, 91493659",
+"product_id_list": "fb19c791-56d0-4af0-ab51-c7ffaab5b831, bef64681-221e-4d3e-9a89-8d1dae6e0c43, 44173eff-d3c1-45d3-8565-8fad14b1e64e"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "DENTAL ACCESSORIES__TEPE__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "65732866, 92340420, 57539408",
+"product_id_list": "db6a11d8-7a89-45f3-859b-07ca8520454c, 66b7929e-f89e-46b2-8dab-25c48fc6552f, 6625b10c-4960-4161-8bcc-5dd20b7c3035"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "REGULAR TOOTHPASTE__AQUAFRESH__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 1,
+"product_tpnb_list": "93038799, 96305409, 96233102",
+"product_id_list": "1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "WHITENING TOOTHPASTE__ARM & HAMMER__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 1,
+"product_tpnb_list": "87229283, 85718491",
+"product_id_list": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 2,
+"product_tpnb_list": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264",
+"product_id_list": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 3,
+"product_tpnb_list": "85878611, 83591745, 85878605",
+"product_id_list": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 4,
+"product_tpnb_list": "96094670, 96093791, 96103199",
+"product_id_list": "95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 5,
+"product_tpnb_list": "93547254, 96096534, 93422177, 93278854, 93282036",
+"product_id_list": "e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform",
+"level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199",
+"product_tpnb_list_shelf_2": "85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 93547254, 96096534, 93422177, 93278854, 93282036",
+"product_id_list_shelf_1": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf",
+"product_id_list_shelf_2": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 3,
+"product_tpnb_list": "83591722, 85983699, 96172559",
+"product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 6,
+"product_tpnb_list": "90784098, 93419781, 85976725",
+"product_id_list": "6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand__platform",
+"level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN",
+"extras": {
+"bay": 2,
+"product_tpnb_list": "83591722, 85983699, 96172559, 67381724, 90784098, 93419781, 85976725",
+"product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform",
+"level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "83591722, 85983699, 96172559, 83591722, 85983699, 96172559, 67381724",
+"product_tpnb_list_shelf_2": "67381724, 90784098, 93419781, 85976725, 90784098, 93419781, 85976725",
+"product_id_list_shelf_1": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719",
+"product_id_list_shelf_2": "76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "SENSITIVE TOOTHPASTE__COLGATE__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 4,
+"product_tpnb_list": "79360074, 94043497, 96095161",
+"product_id_list": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "WHITENING TOOTHPASTE__ORAL-B__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 6,
+"product_tpnb_list": "82781159, 80568632, 89263670, 92192167",
+"product_id_list": "a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand__platform",
+"level_value": "WHITENING TOOTHPASTE__ORAL-B__UNKNOWN",
+"extras": {
+"bay": 2,
+"product_tpnb_list": "92058340, 82781159, 80568632, 89263670, 92192167",
+"product_id_list": "6cdd4291-067a-4878-9a37-bb204fc09aca, a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform",
+"level_value": "WHITENING TOOTHPASTE__ORAL-B__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "92058340",
+"product_tpnb_list_shelf_2": "82781159, 80568632, 89263670, 92192167",
+"product_id_list_shelf_1": "6cdd4291-067a-4878-9a37-bb204fc09aca",
+"product_id_list_shelf_2": "a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "REGULAR TOOTHPASTE__ORAL-B__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 7,
+"product_tpnb_list": "84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+"product_id_list": "702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform",
+"level_value": "SENSITIVE TOOTHPASTE__ORAL-B__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "94044277",
+"product_tpnb_list_shelf_2": "92000563",
+"product_id_list_shelf_1": "89fb73e2-41b9-4dbc-a689-e078391bc863",
+"product_id_list_shelf_2": "5cdb46e9-6a86-4a5a-ae8d-ad35253dd361"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "DENTURE__FIXODENT__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 8,
+"product_tpnb_list": "96302729, 96092014, 96099957",
+"product_id_list": "0470bdfe-1483-47dd-906d-70530f7fe331, 4421f885-1dd8-4c59-9f98-473d8c143939, d644ace5-3b3f-4ec2-987e-953bc84a25a0"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "DENTURE__POLIGRIP__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 8,
+"product_tpnb_list": "60237274, 85718456",
+"product_id_list": "d1807380-5131-4f41-b478-8ef0dde0233e, da62e198-b4f8-4476-ba31-65583670fbe6"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "MOUTHWASH__COLGATE__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 1,
+"product_tpnb_list": "87689221, 51164799, 51257776, 76900432",
+"product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "MOUTHWASH__COLGATE__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 4,
+"product_tpnb_list": "53928043, 50690223",
+"product_id_list": "a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand__platform",
+"level_value": "MOUTHWASH__COLGATE__UNKNOWN",
+"extras": {
+"bay": 3,
+"product_tpnb_list": "87689221, 51164799, 51257776, 76900432, 53928043, 50690223",
+"product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform",
+"level_value": "MOUTHWASH__COLGATE__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 3,
+"product_tpnb_list_shelf_1": "87689221, 51164799, 51257776, 76900432",
+"product_tpnb_list_shelf_2": "53928043, 50690223",
+"product_id_list_shelf_1": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159",
+"product_id_list_shelf_2": "a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "MOUTHWASH__LISTERINE__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 2,
+"product_tpnb_list": "86436505, 52640303, 67902150, 52327548, 57527428",
+"product_id_list": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "MOUTHWASH__LISTERINE__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 3,
+"product_tpnb_list": "64708264, 61463009, 56945576, 75090324",
+"product_id_list": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform",
+"level_value": "MOUTHWASH__LISTERINE__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 3,
+"product_tpnb_list_shelf_1": "86436505, 52640303, 67902150, 52327548, 57527428",
+"product_tpnb_list_shelf_2": "64708264, 61463009, 56945576, 75090324",
+"product_id_list_shelf_1": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5",
+"product_id_list_shelf_2": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "MOUTHWASH__CORSODYL__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 4,
+"product_tpnb_list": "56522201, 87233899, 87227826",
+"product_id_list": "a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "SENSITIVE TOOTHPASTE__CORSODYL__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 5,
+"product_tpnb_list": "88905184, 86420938, 91892607, 93276120",
+"product_id_list": "bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 5,
+"product_tpnb_list": "79164883, 79164670",
+"product_id_list": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 6,
+"product_tpnb_list": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+"product_id_list": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 7,
+"product_tpnb_list": "64521242, 92865921, 96306760",
+"product_id_list": "1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 3,
+"product_tpnb_list_shelf_1": "79164883, 79164670, 79164883, 79164670, 82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+"product_tpnb_list_shelf_2": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869, 64521242, 92865921, 96306760, 64521242, 92865921, 96306760",
+"product_id_list_shelf_1": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5",
+"product_id_list_shelf_2": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform",
+"level_value": "SENSITIVE TOOTHPASTE__PRONAMEL__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 7,
+"product_tpnb_list": "87228071, 87584794, 93337088",
+"product_id_list": "2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "KIDS__AQUAFRESH__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 1,
+"product_tpnb_list": "61452116, 81116754, 88903192",
+"product_id_list": "92162e89-75d9-47a8-af29-9d7e7769ac8b, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "KIDS__AQUAFRESH__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 2,
+"product_tpnb_list": "74168299, 81116731, 84538526, 61489561",
+"product_id_list": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "KIDS__AQUAFRESH__UNKNOWN__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "61452116, 81116754, 88903192",
+"product_tpnb_list_shelf_2": "74168299, 81116731, 84538526, 61489561",
+"product_id_list_shelf_1": "92162e89-75d9-47a8-af29-9d7e7769ac8b, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1",
+"product_id_list_shelf_2": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "KIDS__TESCO PROFORMULA__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 1,
+"product_tpnb_list": "85992832, 85992262",
+"product_id_list": "1ddbd0dd-3f2d-4e35-96b5-ce99d0742d3e, 1b18c379-8de7-4686-b9e7-7ad95d15eb0b"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "KIDS__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 2,
+"product_tpnb_list": "80184938, 85988423",
+"product_id_list": "7b151fca-93cf-4b86-be94-e61d612db227, b96aef40-ada1-45d3-a026-8f301ce5f82c"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "POWERED BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 4,
+"product_tpnb_list": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+"product_id_list": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "POWERED BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 5,
+"product_tpnb_list": "90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list": "798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "POWERED BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"product_tpnb_list": "92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list": "c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "POWERED BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "92000950, 92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+"product_tpnb_list_shelf_2": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+"product_id_list_shelf_1": "c07ed270-f072-422b-a181-7a0f2c91f4e6, c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf",
+"product_id_list_shelf_2": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MANUAL BRUSH__PRO FORMULA__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 3,
+"product_tpnb_list": "85112648, 73545868",
+"product_id_list": "9bfec8c7-27b8-4f53-b5a2-5fb9679c22ac, 66fdb473-a357-481b-848a-bf5fd102d8ea"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MANUAL BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 3,
+"product_tpnb_list": "73397564, 80568675",
+"product_id_list": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MANUAL BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 1,
+"product_tpnb_list_shelf_1": "73397564, 80568675",
+"product_tpnb_list_shelf_2": "57522658",
+"product_id_list_shelf_1": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0",
+"product_id_list_shelf_2": "82d338c9-c326-4c3a-ac1f-699866b14de2"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MANUAL BRUSH__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 3,
+"product_tpnb_list": "92048040, 67934516, 57565198, 89261652, 63820517, 73325985, 87181352, 60227614, 92008059, 67369291",
+"product_id_list": "dcc1d818-58de-4309-80cb-c3fc62cbe36d, f1cd0358-88df-4bec-83d0-35759a82a8c7, bfbdced2-59a4-427f-8c84-a7c6938d1011, dba070d6-805e-47b1-a5a1-053a4a2eb240, dab31f5b-3b31-4ce4-85ee-d6b3e634a598, 99a98990-36bb-417c-b636-5e2014692176, 1c4d4fee-cc98-4475-8056-6610f866a6bf, 99a2bdae-cc9f-4b78-b172-bea1c48cf35b, 472aac76-046f-46c6-8f91-6cd9024fc66e, 367c0195-d05d-4340-8937-b13b177dc6b7"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "POWERED BRUSH__PRO FORMULA__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 4,
+"product_tpnb_list": "83909251, 88898672",
+"product_id_list": "25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "DENTAL ACCESSORIES__PRO FORMULA__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "73560688, 73560671, 91886454, 91712701, 91777733, 91892642, 91832518",
+"product_id_list": "fc4f3ef2-4bac-4809-b588-288530b43ea7, d45670b3-c10a-48d3-ab10-532fe281a45e, 02254f07-8456-415f-8eab-823ed7e21146, 62b3931b-68a9-465b-a2aa-2dd88754ba9e, 61532d53-dacf-4bf5-851d-ecae514c61b9, aeeda34f-4fa8-44fa-80fb-07f91f2fc6d6, 4bac881d-87c3-41a6-bf65-d9b31b0fc99f"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "DENTAL ACCESSORIES__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "54213708, 56906531",
+"product_id_list": "fabb3a27-d658-4a19-8bbb-09393a3e73b9, 508bd6a7-1b16-442c-816e-4afca7507caa"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "DENTAL ACCESSORIES__PLACKERS__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "92002296, 91882153, 91493659",
+"product_id_list": "fb19c791-56d0-4af0-ab51-c7ffaab5b831, bef64681-221e-4d3e-9a89-8d1dae6e0c43, 44173eff-d3c1-45d3-8565-8fad14b1e64e"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "DENTAL ACCESSORIES__TEPE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 1,
+"shelf": 6,
+"product_tpnb_list": "65732866, 92340420, 57539408",
+"product_id_list": "db6a11d8-7a89-45f3-859b-07ca8520454c, 66b7929e-f89e-46b2-8dab-25c48fc6552f, 6625b10c-4960-4161-8bcc-5dd20b7c3035"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "REGULAR TOOTHPASTE__AQUAFRESH__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 1,
+"product_tpnb_list": "93038799, 96305409, 96233102",
+"product_id_list": "1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "WHITENING TOOTHPASTE__ARM & HAMMER__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 1,
+"product_tpnb_list": "87229283, 85718491",
+"product_id_list": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 2,
+"product_tpnb_list": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264",
+"product_id_list": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 3,
+"product_tpnb_list": "85878611, 83591745, 85878605",
+"product_id_list": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 4,
+"product_tpnb_list": "96094670, 96093791, 96103199",
+"product_id_list": "95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 5,
+"product_tpnb_list": "93547254, 96096534, 93422177, 93278854, 93282036",
+"product_id_list": "e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199",
+"product_tpnb_list_shelf_2": "85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 93547254, 96096534, 93422177, 93278854, 93282036",
+"product_id_list_shelf_1": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf",
+"product_id_list_shelf_2": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 3,
+"product_tpnb_list": "83591722, 85983699, 96172559",
+"product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 6,
+"product_tpnb_list": "90784098, 93419781, 85976725",
+"product_id_list": "6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"product_tpnb_list": "83591722, 85983699, 96172559, 67381724, 90784098, 93419781, 85976725",
+"product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "83591722, 85983699, 96172559, 83591722, 85983699, 96172559, 67381724",
+"product_tpnb_list_shelf_2": "67381724, 90784098, 93419781, 85976725, 90784098, 93419781, 85976725",
+"product_id_list_shelf_1": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719",
+"product_id_list_shelf_2": "76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "SENSITIVE TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 4,
+"product_tpnb_list": "79360074, 94043497, 96095161",
+"product_id_list": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "WHITENING TOOTHPASTE__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 6,
+"product_tpnb_list": "82781159, 80568632, 89263670, 92192167",
+"product_id_list": "a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "WHITENING TOOTHPASTE__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"product_tpnb_list": "92058340, 82781159, 80568632, 89263670, 92192167",
+"product_id_list": "6cdd4291-067a-4878-9a37-bb204fc09aca, a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "WHITENING TOOTHPASTE__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "92058340",
+"product_tpnb_list_shelf_2": "82781159, 80568632, 89263670, 92192167",
+"product_id_list_shelf_1": "6cdd4291-067a-4878-9a37-bb204fc09aca",
+"product_id_list_shelf_2": "a286b47d-3eec-418c-aeca-f827dfcda62a, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "REGULAR TOOTHPASTE__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 7,
+"product_tpnb_list": "84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+"product_id_list": "702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "SENSITIVE TOOTHPASTE__ORAL-B__UNKNOWN__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 2,
+"product_tpnb_list_shelf_1": "94044277",
+"product_tpnb_list_shelf_2": "92000563",
+"product_id_list_shelf_1": "89fb73e2-41b9-4dbc-a689-e078391bc863",
+"product_id_list_shelf_2": "5cdb46e9-6a86-4a5a-ae8d-ad35253dd361"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "DENTURE__FIXODENT__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 8,
+"product_tpnb_list": "96302729, 96092014, 96099957",
+"product_id_list": "0470bdfe-1483-47dd-906d-70530f7fe331, 4421f885-1dd8-4c59-9f98-473d8c143939, d644ace5-3b3f-4ec2-987e-953bc84a25a0"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "DENTURE__POLIGRIP__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 2,
+"shelf": 8,
+"product_tpnb_list": "60237274, 85718456",
+"product_id_list": "d1807380-5131-4f41-b478-8ef0dde0233e, da62e198-b4f8-4476-ba31-65583670fbe6"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MOUTHWASH__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 1,
+"product_tpnb_list": "87689221, 51164799, 51257776, 76900432",
+"product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MOUTHWASH__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 4,
+"product_tpnb_list": "53928043, 50690223",
+"product_id_list": "a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e"
+}
+},
+{
+"type": "consecutive_shelves_within_bay",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MOUTHWASH__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 3,
+"product_tpnb_list": "87689221, 51164799, 51257776, 76900432, 53928043, 50690223",
+"product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MOUTHWASH__COLGATE__UNKNOWN__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 3,
+"product_tpnb_list_shelf_1": "87689221, 51164799, 51257776, 76900432",
+"product_tpnb_list_shelf_2": "53928043, 50690223",
+"product_id_list_shelf_1": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159",
+"product_id_list_shelf_2": "a8999fec-607b-4068-be73-760d6d43b1cc, 66e05545-359a-48a0-a61a-8585a408182e"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MOUTHWASH__LISTERINE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 2,
+"product_tpnb_list": "86436505, 52640303, 67902150, 52327548, 57527428",
+"product_id_list": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MOUTHWASH__LISTERINE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 3,
+"product_tpnb_list": "64708264, 61463009, 56945576, 75090324",
+"product_id_list": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MOUTHWASH__LISTERINE__UNKNOWN__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 3,
+"product_tpnb_list_shelf_1": "86436505, 52640303, 67902150, 52327548, 57527428",
+"product_tpnb_list_shelf_2": "64708264, 61463009, 56945576, 75090324",
+"product_id_list_shelf_1": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5",
+"product_id_list_shelf_2": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "MOUTHWASH__CORSODYL__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 4,
+"product_tpnb_list": "56522201, 87233899, 87227826",
+"product_id_list": "a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "SENSITIVE TOOTHPASTE__CORSODYL__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 5,
+"product_tpnb_list": "88905184, 86420938, 91892607, 93276120",
+"product_id_list": "bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 5,
+"product_tpnb_list": "79164883, 79164670",
+"product_id_list": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 6,
+"product_tpnb_list": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+"product_id_list": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 7,
+"product_tpnb_list": "64521242, 92865921, 96306760",
+"product_id_list": "1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+}
+},
+{
+"type": "cross_shelf_x_overlap",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN__UNKNOWN",
+"extras": {
+"min_x_iou": 0,
+"avg_x_iou": 0,
+"max_x_iou": 0,
+"med_x_iou": 0,
+"threshold": 0.25,
+"bay": 3,
+"product_tpnb_list_shelf_1": "79164883, 79164670, 79164883, 79164670, 82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+"product_tpnb_list_shelf_2": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869, 64521242, 92865921, 96306760, 64521242, 92865921, 96306760",
+"product_id_list_shelf_1": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5",
+"product_id_list_shelf_2": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+}
+},
+{
+"type": "consecutive_positions_within_shelf",
+"level_name": "subgroup__brand__platform__intensity",
+"level_value": "SENSITIVE TOOTHPASTE__PRONAMEL__UNKNOWN__UNKNOWN",
+"extras": {
+"bay": 3,
+"shelf": 7,
+"product_tpnb_list": "87228071, 87584794, 93337088",
+"product_id_list": "2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91"
+}
+}
+]
+}
+}
+
+export const violations_response_2 = {
+    "status": 200,
+    "message": "Success",
+    "data": {
+    "planogram_instance_id": "1c427185-4330-4a08-941a-d04badb1e48f",
+    "violation_count": 180,
+    "violations": [
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "KIDS",
+    "extras": {
+    "bay": 1,
+    "shelf": 1,
+    "product_tpnb_list": "61452116, 86016064, 85992832, 85992262, 91256336, 81116754, 88903192",
+    "product_id_list": "92162e89-75d9-47a8-af29-9d7e7769ac8b, dc5493cf-843e-408f-811f-149351970c17, 1ddbd0dd-3f2d-4e35-96b5-ce99d0742d3e, 1b18c379-8de7-4686-b9e7-7ad95d15eb0b, 910c6a65-f5b0-4acc-b6ac-e5a6f1de60fe, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "KIDS",
+    "extras": {
+    "bay": 1,
+    "shelf": 2,
+    "product_tpnb_list": "80184938, 85988423, 91713372, 74168299, 81116731, 84538526, 61489561, 96300789",
+    "product_id_list": "7b151fca-93cf-4b86-be94-e61d612db227, b96aef40-ada1-45d3-a026-8f301ce5f82c, 34a797ab-9421-4fb7-ac9f-800b4726fcb3, 1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2, a1951ede-1efc-4f0f-a099-6a1cc710ca39"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup",
+    "level_value": "KIDS",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "61452116, 86016064, 85992832, 85992262, 91256336, 81116754, 88903192",
+    "product_tpnb_list_shelf_2": "80184938, 85988423, 91713372, 74168299, 81116731, 84538526, 61489561, 96300789",
+    "product_id_list_shelf_1": "92162e89-75d9-47a8-af29-9d7e7769ac8b, dc5493cf-843e-408f-811f-149351970c17, 1ddbd0dd-3f2d-4e35-96b5-ce99d0742d3e, 1b18c379-8de7-4686-b9e7-7ad95d15eb0b, 910c6a65-f5b0-4acc-b6ac-e5a6f1de60fe, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1",
+    "product_id_list_shelf_2": "7b151fca-93cf-4b86-be94-e61d612db227, b96aef40-ada1-45d3-a026-8f301ce5f82c, 34a797ab-9421-4fb7-ac9f-800b4726fcb3, 1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2, a1951ede-1efc-4f0f-a099-6a1cc710ca39"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "POWERED BRUSH",
+    "extras": {
+    "bay": 1,
+    "shelf": 4,
+    "product_tpnb_list": "83909251, 88898672, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+    "product_id_list": "25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "POWERED BRUSH",
+    "extras": {
+    "bay": 1,
+    "shelf": 5,
+    "product_tpnb_list": "90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list": "798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup",
+    "level_value": "POWERED BRUSH",
+    "extras": {
+    "bay": 1,
+    "product_tpnb_list": "92000950, 83909251, 88898672, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list": "c07ed270-f072-422b-a181-7a0f2c91f4e6, 25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup",
+    "level_value": "POWERED BRUSH",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "92000950, 92000950, 83909251, 88898672, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+    "product_tpnb_list_shelf_2": "83909251, 88898672, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list_shelf_1": "c07ed270-f072-422b-a181-7a0f2c91f4e6, c07ed270-f072-422b-a181-7a0f2c91f4e6, 25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf",
+    "product_id_list_shelf_2": "25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "MANUAL BRUSH",
+    "extras": {
+    "bay": 1,
+    "shelf": 3,
+    "product_tpnb_list": "85112602, 85112648, 73545868, 73397564, 80568675, 92048040, 67934516, 57565198, 89261652, 63820517, 73325985, 87181352, 60227614, 92008059, 67369291",
+    "product_id_list": "8465a027-a15a-49fb-9490-a919dca5152d, 9bfec8c7-27b8-4f53-b5a2-5fb9679c22ac, 66fdb473-a357-481b-848a-bf5fd102d8ea, 422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0, dcc1d818-58de-4309-80cb-c3fc62cbe36d, f1cd0358-88df-4bec-83d0-35759a82a8c7, bfbdced2-59a4-427f-8c84-a7c6938d1011, dba070d6-805e-47b1-a5a1-053a4a2eb240, dab31f5b-3b31-4ce4-85ee-d6b3e634a598, 99a98990-36bb-417c-b636-5e2014692176, 1c4d4fee-cc98-4475-8056-6610f866a6bf, 99a2bdae-cc9f-4b78-b172-bea1c48cf35b, 472aac76-046f-46c6-8f91-6cd9024fc66e, 367c0195-d05d-4340-8937-b13b177dc6b7"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup",
+    "level_value": "MANUAL BRUSH",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "85112602, 85112648, 73545868, 73397564, 80568675, 92048040, 67934516, 57565198, 89261652, 63820517, 73325985, 87181352, 60227614, 92008059, 67369291",
+    "product_tpnb_list_shelf_2": "57522658",
+    "product_id_list_shelf_1": "8465a027-a15a-49fb-9490-a919dca5152d, 9bfec8c7-27b8-4f53-b5a2-5fb9679c22ac, 66fdb473-a357-481b-848a-bf5fd102d8ea, 422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0, dcc1d818-58de-4309-80cb-c3fc62cbe36d, f1cd0358-88df-4bec-83d0-35759a82a8c7, bfbdced2-59a4-427f-8c84-a7c6938d1011, dba070d6-805e-47b1-a5a1-053a4a2eb240, dab31f5b-3b31-4ce4-85ee-d6b3e634a598, 99a98990-36bb-417c-b636-5e2014692176, 1c4d4fee-cc98-4475-8056-6610f866a6bf, 99a2bdae-cc9f-4b78-b172-bea1c48cf35b, 472aac76-046f-46c6-8f91-6cd9024fc66e, 367c0195-d05d-4340-8937-b13b177dc6b7",
+    "product_id_list_shelf_2": "82d338c9-c326-4c3a-ac1f-699866b14de2"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "DENTAL ACCESSORIES",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "73560688, 73560671, 54213708, 56906531, 92002296, 91882153, 91493659, 91886454, 91712701, 91777733, 91892642, 91832518, 65732866, 92340420, 57539408",
+    "product_id_list": "fc4f3ef2-4bac-4809-b588-288530b43ea7, d45670b3-c10a-48d3-ab10-532fe281a45e, fabb3a27-d658-4a19-8bbb-09393a3e73b9, 508bd6a7-1b16-442c-816e-4afca7507caa, fb19c791-56d0-4af0-ab51-c7ffaab5b831, bef64681-221e-4d3e-9a89-8d1dae6e0c43, 44173eff-d3c1-45d3-8565-8fad14b1e64e, 02254f07-8456-415f-8eab-823ed7e21146, 62b3931b-68a9-465b-a2aa-2dd88754ba9e, 61532d53-dacf-4bf5-851d-ecae514c61b9, aeeda34f-4fa8-44fa-80fb-07f91f2fc6d6, 4bac881d-87c3-41a6-bf65-d9b31b0fc99f, db6a11d8-7a89-45f3-859b-07ca8520454c, 66b7929e-f89e-46b2-8dab-25c48fc6552f, 6625b10c-4960-4161-8bcc-5dd20b7c3035"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "REGULAR TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "shelf": 1,
+    "product_tpnb_list": "84928779, 51769631, 93038799, 96305409, 96233102",
+    "product_id_list": "91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "REGULAR TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "shelf": 2,
+    "product_tpnb_list": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264",
+    "product_id_list": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "REGULAR TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "shelf": 3,
+    "product_tpnb_list": "85878611, 83591745, 85878605",
+    "product_id_list": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "REGULAR TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "shelf": 4,
+    "product_tpnb_list": "96094670, 96093791, 96103199",
+    "product_id_list": "95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "REGULAR TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "shelf": 5,
+    "product_tpnb_list": "93547254, 96096534, 93422177, 93278854, 93282036",
+    "product_id_list": "e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "REGULAR TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "shelf": 7,
+    "product_tpnb_list": "84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+    "product_id_list": "702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup",
+    "level_value": "REGULAR TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "product_tpnb_list": "84928779, 51769631, 93038799, 96305409, 96233102, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+    "product_id_list": "91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup",
+    "level_value": "REGULAR TOOTHPASTE",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "84928779, 51769631, 93038799, 96305409, 96233102, 84928779, 51769631, 93038799, 96305409, 96233102, 84928779, 51769631, 93038799, 96305409, 96233102, 84928779, 51769631, 93038799, 96305409, 96233102, 84928779, 51769631, 93038799, 96305409, 96233102, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 85878611, 83591745, 85878605, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036",
+    "product_tpnb_list_shelf_2": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766, 93547254, 96096534, 93422177, 93278854, 93282036, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766, 84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+    "product_id_list_shelf_1": "91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 91170b01-adb8-460d-b38e-8fe90e11ec17, 5a618df9-3b83-45ce-b5a4-91aba2b632a8, 1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912",
+    "product_id_list_shelf_2": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c, 702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "WHITENING TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "shelf": 1,
+    "product_tpnb_list": "87229283, 85718491",
+    "product_id_list": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "WHITENING TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "shelf": 3,
+    "product_tpnb_list": "83591722, 85983699, 96172559",
+    "product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "WHITENING TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "shelf": 6,
+    "product_tpnb_list": "82781159, 92058340, 80568632, 89263670, 92192167, 90784098, 93419781, 85976725",
+    "product_id_list": "a286b47d-3eec-418c-aeca-f827dfcda62a, 6cdd4291-067a-4878-9a37-bb204fc09aca, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup",
+    "level_value": "WHITENING TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "product_tpnb_list": "87229283, 85718491, 83591722, 85983699, 96172559, 67381724, 82781159, 92058340, 80568632, 89263670, 92192167, 90784098, 93419781, 85976725",
+    "product_id_list": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719, a286b47d-3eec-418c-aeca-f827dfcda62a, 6cdd4291-067a-4878-9a37-bb204fc09aca, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup",
+    "level_value": "WHITENING TOOTHPASTE",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "87229283, 85718491, 87229283, 85718491, 87229283, 85718491, 83591722, 85983699, 96172559, 83591722, 85983699, 96172559, 67381724",
+    "product_tpnb_list_shelf_2": "83591722, 85983699, 96172559, 67381724, 82781159, 92058340, 80568632, 89263670, 92192167, 90784098, 93419781, 85976725, 67381724, 82781159, 92058340, 80568632, 89263670, 92192167, 90784098, 93419781, 85976725, 82781159, 92058340, 80568632, 89263670, 92192167, 90784098, 93419781, 85976725",
+    "product_id_list_shelf_1": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7, eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7, eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719",
+    "product_id_list_shelf_2": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719, a286b47d-3eec-418c-aeca-f827dfcda62a, 6cdd4291-067a-4878-9a37-bb204fc09aca, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41, 76c2f05b-54e2-48d6-9e1f-c69102a16719, a286b47d-3eec-418c-aeca-f827dfcda62a, 6cdd4291-067a-4878-9a37-bb204fc09aca, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41, a286b47d-3eec-418c-aeca-f827dfcda62a, 6cdd4291-067a-4878-9a37-bb204fc09aca, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "MOUTHWASH",
+    "extras": {
+    "bay": 3,
+    "shelf": 1,
+    "product_tpnb_list": "85290842, 85290856, 86006295, 87689221, 51164799, 51257776, 76900432",
+    "product_id_list": "374514e1-eb45-4cae-b5ee-831be9bee526, c5610686-4a44-4843-8a90-6f4540969140, c07af7e8-268f-445c-a82b-2b3a1258fd7a, 4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "MOUTHWASH",
+    "extras": {
+    "bay": 3,
+    "shelf": 2,
+    "product_tpnb_list": "86436505, 52640303, 67902150, 52327548, 57527428",
+    "product_id_list": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "MOUTHWASH",
+    "extras": {
+    "bay": 3,
+    "shelf": 3,
+    "product_tpnb_list": "64708264, 61463009, 56945576, 75090324",
+    "product_id_list": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "MOUTHWASH",
+    "extras": {
+    "bay": 3,
+    "shelf": 4,
+    "product_tpnb_list": "50690223, 56522201, 87233899, 87227826",
+    "product_id_list": "66e05545-359a-48a0-a61a-8585a408182e, a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup",
+    "level_value": "MOUTHWASH",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 3,
+    "product_tpnb_list_shelf_1": "85290842, 85290856, 86006295, 87689221, 51164799, 51257776, 76900432, 85290842, 85290856, 86006295, 87689221, 51164799, 51257776, 76900432, 85290842, 85290856, 86006295, 87689221, 51164799, 51257776, 76900432, 86436505, 52640303, 67902150, 52327548, 57527428, 86436505, 52640303, 67902150, 52327548, 57527428, 64708264, 61463009, 56945576, 75090324",
+    "product_tpnb_list_shelf_2": "86436505, 52640303, 67902150, 52327548, 57527428, 64708264, 61463009, 56945576, 75090324, 50690223, 56522201, 87233899, 87227826, 64708264, 61463009, 56945576, 75090324, 50690223, 56522201, 87233899, 87227826, 50690223, 56522201, 87233899, 87227826",
+    "product_id_list_shelf_1": "374514e1-eb45-4cae-b5ee-831be9bee526, c5610686-4a44-4843-8a90-6f4540969140, c07af7e8-268f-445c-a82b-2b3a1258fd7a, 4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, 374514e1-eb45-4cae-b5ee-831be9bee526, c5610686-4a44-4843-8a90-6f4540969140, c07af7e8-268f-445c-a82b-2b3a1258fd7a, 4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, 374514e1-eb45-4cae-b5ee-831be9bee526, c5610686-4a44-4843-8a90-6f4540969140, c07af7e8-268f-445c-a82b-2b3a1258fd7a, 4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5, e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5, f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03",
+    "product_id_list_shelf_2": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5, f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03, 66e05545-359a-48a0-a61a-8585a408182e, a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce, f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03, 66e05545-359a-48a0-a61a-8585a408182e, a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce, 66e05545-359a-48a0-a61a-8585a408182e, a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "SENSITIVE TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "shelf": 4,
+    "product_tpnb_list": "79360074, 94043497, 96095161",
+    "product_id_list": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "SENSITIVE TOOTHPASTE",
+    "extras": {
+    "bay": 3,
+    "shelf": 5,
+    "product_tpnb_list": "88905184, 86420938, 91892607, 93276120, 79164883, 79164670",
+    "product_id_list": "bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "SENSITIVE TOOTHPASTE",
+    "extras": {
+    "bay": 3,
+    "shelf": 6,
+    "product_tpnb_list": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+    "product_id_list": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "SENSITIVE TOOTHPASTE",
+    "extras": {
+    "bay": 3,
+    "shelf": 7,
+    "product_tpnb_list": "64521242, 87228071, 87584794, 93337088, 92865921, 96306760",
+    "product_id_list": "1603fd1f-3b79-4750-aebd-b80a8d30442f, 2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup",
+    "level_value": "SENSITIVE TOOTHPASTE",
+    "extras": {
+    "bay": 2,
+    "product_tpnb_list": "79360074, 94043497, 96095161, 94044277, 92000563",
+    "product_id_list": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25, 89fb73e2-41b9-4dbc-a689-e078391bc863, 5cdb46e9-6a86-4a5a-ae8d-ad35253dd361"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup",
+    "level_value": "SENSITIVE TOOTHPASTE",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "79360074, 94043497, 96095161, 79360074, 94043497, 96095161, 94044277",
+    "product_tpnb_list_shelf_2": "94044277, 92000563, 92000563",
+    "product_id_list_shelf_1": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25, a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25, 89fb73e2-41b9-4dbc-a689-e078391bc863",
+    "product_id_list_shelf_2": "89fb73e2-41b9-4dbc-a689-e078391bc863, 5cdb46e9-6a86-4a5a-ae8d-ad35253dd361, 5cdb46e9-6a86-4a5a-ae8d-ad35253dd361"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup",
+    "level_value": "SENSITIVE TOOTHPASTE",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 3,
+    "product_tpnb_list_shelf_1": "88905184, 86420938, 91892607, 93276120, 79164883, 79164670, 88905184, 86420938, 91892607, 93276120, 79164883, 79164670, 82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+    "product_tpnb_list_shelf_2": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869, 64521242, 87228071, 87584794, 93337088, 92865921, 96306760, 64521242, 87228071, 87584794, 93337088, 92865921, 96306760",
+    "product_id_list_shelf_1": "bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5",
+    "product_id_list_shelf_2": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup",
+    "level_value": "DENTURE",
+    "extras": {
+    "bay": 2,
+    "shelf": 8,
+    "product_tpnb_list": "96302729, 96092014, 96099957, 60237274, 85718456, 78173522, 81407370",
+    "product_id_list": "0470bdfe-1483-47dd-906d-70530f7fe331, 4421f885-1dd8-4c59-9f98-473d8c143939, d644ace5-3b3f-4ec2-987e-953bc84a25a0, d1807380-5131-4f41-b478-8ef0dde0233e, da62e198-b4f8-4476-ba31-65583670fbe6, 14a86ce2-2f25-468a-baf2-c43742608efc, 1ad3849c-03a8-4d94-9d34-c3deb1395c7f"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "KIDS__AQUAFRESH",
+    "extras": {
+    "bay": 1,
+    "shelf": 1,
+    "product_tpnb_list": "61452116, 91256336, 81116754, 88903192",
+    "product_id_list": "92162e89-75d9-47a8-af29-9d7e7769ac8b, 910c6a65-f5b0-4acc-b6ac-e5a6f1de60fe, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "KIDS__AQUAFRESH",
+    "extras": {
+    "bay": 1,
+    "shelf": 2,
+    "product_tpnb_list": "74168299, 81116731, 84538526, 61489561",
+    "product_id_list": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand",
+    "level_value": "KIDS__AQUAFRESH",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "61452116, 91256336, 81116754, 88903192",
+    "product_tpnb_list_shelf_2": "74168299, 81116731, 84538526, 61489561",
+    "product_id_list_shelf_1": "92162e89-75d9-47a8-af29-9d7e7769ac8b, 910c6a65-f5b0-4acc-b6ac-e5a6f1de60fe, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1",
+    "product_id_list_shelf_2": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "KIDS__TESCO PROFORMULA",
+    "extras": {
+    "bay": 1,
+    "shelf": 1,
+    "product_tpnb_list": "85992832, 85992262",
+    "product_id_list": "1ddbd0dd-3f2d-4e35-96b5-ce99d0742d3e, 1b18c379-8de7-4686-b9e7-7ad95d15eb0b"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "KIDS__COLGATE",
+    "extras": {
+    "bay": 1,
+    "shelf": 2,
+    "product_tpnb_list": "80184938, 85988423",
+    "product_id_list": "7b151fca-93cf-4b86-be94-e61d612db227, b96aef40-ada1-45d3-a026-8f301ce5f82c"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "POWERED BRUSH__ORAL-B",
+    "extras": {
+    "bay": 1,
+    "shelf": 4,
+    "product_tpnb_list": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+    "product_id_list": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "POWERED BRUSH__ORAL-B",
+    "extras": {
+    "bay": 1,
+    "shelf": 5,
+    "product_tpnb_list": "90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list": "798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup__brand",
+    "level_value": "POWERED BRUSH__ORAL-B",
+    "extras": {
+    "bay": 1,
+    "product_tpnb_list": "92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list": "c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand",
+    "level_value": "POWERED BRUSH__ORAL-B",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "92000950, 92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+    "product_tpnb_list_shelf_2": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list_shelf_1": "c07ed270-f072-422b-a181-7a0f2c91f4e6, c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf",
+    "product_id_list_shelf_2": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "MANUAL BRUSH__PRO FORMULA",
+    "extras": {
+    "bay": 1,
+    "shelf": 3,
+    "product_tpnb_list": "85112648, 73545868",
+    "product_id_list": "9bfec8c7-27b8-4f53-b5a2-5fb9679c22ac, 66fdb473-a357-481b-848a-bf5fd102d8ea"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "MANUAL BRUSH__ORAL-B",
+    "extras": {
+    "bay": 1,
+    "shelf": 3,
+    "product_tpnb_list": "73397564, 80568675",
+    "product_id_list": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand",
+    "level_value": "MANUAL BRUSH__ORAL-B",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "73397564, 80568675",
+    "product_tpnb_list_shelf_2": "57522658",
+    "product_id_list_shelf_1": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0",
+    "product_id_list_shelf_2": "82d338c9-c326-4c3a-ac1f-699866b14de2"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "MANUAL BRUSH__COLGATE",
+    "extras": {
+    "bay": 1,
+    "shelf": 3,
+    "product_tpnb_list": "92048040, 67934516, 57565198, 89261652, 63820517, 73325985, 87181352, 60227614, 92008059, 67369291",
+    "product_id_list": "dcc1d818-58de-4309-80cb-c3fc62cbe36d, f1cd0358-88df-4bec-83d0-35759a82a8c7, bfbdced2-59a4-427f-8c84-a7c6938d1011, dba070d6-805e-47b1-a5a1-053a4a2eb240, dab31f5b-3b31-4ce4-85ee-d6b3e634a598, 99a98990-36bb-417c-b636-5e2014692176, 1c4d4fee-cc98-4475-8056-6610f866a6bf, 99a2bdae-cc9f-4b78-b172-bea1c48cf35b, 472aac76-046f-46c6-8f91-6cd9024fc66e, 367c0195-d05d-4340-8937-b13b177dc6b7"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "POWERED BRUSH__PRO FORMULA",
+    "extras": {
+    "bay": 1,
+    "shelf": 4,
+    "product_tpnb_list": "83909251, 88898672",
+    "product_id_list": "25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "DENTAL ACCESSORIES__PRO FORMULA",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "73560688, 73560671, 91886454, 91712701, 91777733, 91892642, 91832518",
+    "product_id_list": "fc4f3ef2-4bac-4809-b588-288530b43ea7, d45670b3-c10a-48d3-ab10-532fe281a45e, 02254f07-8456-415f-8eab-823ed7e21146, 62b3931b-68a9-465b-a2aa-2dd88754ba9e, 61532d53-dacf-4bf5-851d-ecae514c61b9, aeeda34f-4fa8-44fa-80fb-07f91f2fc6d6, 4bac881d-87c3-41a6-bf65-d9b31b0fc99f"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "DENTAL ACCESSORIES__ORAL-B",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "54213708, 56906531",
+    "product_id_list": "fabb3a27-d658-4a19-8bbb-09393a3e73b9, 508bd6a7-1b16-442c-816e-4afca7507caa"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "DENTAL ACCESSORIES__PLACKERS",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "92002296, 91882153, 91493659",
+    "product_id_list": "fb19c791-56d0-4af0-ab51-c7ffaab5b831, bef64681-221e-4d3e-9a89-8d1dae6e0c43, 44173eff-d3c1-45d3-8565-8fad14b1e64e"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "DENTAL ACCESSORIES__TEPE",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "65732866, 92340420, 57539408",
+    "product_id_list": "db6a11d8-7a89-45f3-859b-07ca8520454c, 66b7929e-f89e-46b2-8dab-25c48fc6552f, 6625b10c-4960-4161-8bcc-5dd20b7c3035"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "REGULAR TOOTHPASTE__AQUAFRESH",
+    "extras": {
+    "bay": 2,
+    "shelf": 1,
+    "product_tpnb_list": "93038799, 96305409, 96233102",
+    "product_id_list": "1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "WHITENING TOOTHPASTE__ARM & HAMMER",
+    "extras": {
+    "bay": 2,
+    "shelf": 1,
+    "product_tpnb_list": "87229283, 85718491",
+    "product_id_list": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE",
+    "extras": {
+    "bay": 2,
+    "shelf": 2,
+    "product_tpnb_list": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264",
+    "product_id_list": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE",
+    "extras": {
+    "bay": 2,
+    "shelf": 3,
+    "product_tpnb_list": "85878611, 83591745, 85878605",
+    "product_id_list": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE",
+    "extras": {
+    "bay": 2,
+    "shelf": 4,
+    "product_tpnb_list": "96094670, 96093791, 96103199",
+    "product_id_list": "95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE",
+    "extras": {
+    "bay": 2,
+    "shelf": 5,
+    "product_tpnb_list": "93547254, 96096534, 93422177, 93278854, 93282036",
+    "product_id_list": "e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199",
+    "product_tpnb_list_shelf_2": "85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 93547254, 96096534, 93422177, 93278854, 93282036",
+    "product_id_list_shelf_1": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf",
+    "product_id_list_shelf_2": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "MOUTHWASH__COLGATE",
+    "extras": {
+    "bay": 3,
+    "shelf": 1,
+    "product_tpnb_list": "87689221, 51164799, 51257776, 76900432",
+    "product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup__brand",
+    "level_value": "MOUTHWASH__COLGATE",
+    "extras": {
+    "bay": 3,
+    "product_tpnb_list": "87689221, 51164799, 51257776, 76900432, 50690223",
+    "product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, 66e05545-359a-48a0-a61a-8585a408182e"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand",
+    "level_value": "MOUTHWASH__COLGATE",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 3,
+    "product_tpnb_list_shelf_1": "87689221, 51164799, 51257776, 76900432",
+    "product_tpnb_list_shelf_2": "50690223",
+    "product_id_list_shelf_1": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159",
+    "product_id_list_shelf_2": "66e05545-359a-48a0-a61a-8585a408182e"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE",
+    "extras": {
+    "bay": 2,
+    "shelf": 3,
+    "product_tpnb_list": "83591722, 85983699, 96172559",
+    "product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE",
+    "extras": {
+    "bay": 2,
+    "shelf": 6,
+    "product_tpnb_list": "90784098, 93419781, 85976725",
+    "product_id_list": "6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup__brand",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE",
+    "extras": {
+    "bay": 2,
+    "product_tpnb_list": "83591722, 85983699, 96172559, 67381724, 90784098, 93419781, 85976725",
+    "product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "83591722, 85983699, 96172559, 83591722, 85983699, 96172559, 67381724",
+    "product_tpnb_list_shelf_2": "67381724, 90784098, 93419781, 85976725, 90784098, 93419781, 85976725",
+    "product_id_list_shelf_1": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719",
+    "product_id_list_shelf_2": "76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "SENSITIVE TOOTHPASTE__COLGATE",
+    "extras": {
+    "bay": 2,
+    "shelf": 4,
+    "product_tpnb_list": "79360074, 94043497, 96095161",
+    "product_id_list": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "WHITENING TOOTHPASTE__ORAL-B",
+    "extras": {
+    "bay": 2,
+    "shelf": 6,
+    "product_tpnb_list": "82781159, 92058340, 80568632, 89263670, 92192167",
+    "product_id_list": "a286b47d-3eec-418c-aeca-f827dfcda62a, 6cdd4291-067a-4878-9a37-bb204fc09aca, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "REGULAR TOOTHPASTE__ORAL-B",
+    "extras": {
+    "bay": 2,
+    "shelf": 7,
+    "product_tpnb_list": "84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+    "product_id_list": "702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand",
+    "level_value": "SENSITIVE TOOTHPASTE__ORAL-B",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "94044277",
+    "product_tpnb_list_shelf_2": "92000563",
+    "product_id_list_shelf_1": "89fb73e2-41b9-4dbc-a689-e078391bc863",
+    "product_id_list_shelf_2": "5cdb46e9-6a86-4a5a-ae8d-ad35253dd361"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "DENTURE__FIXODENT",
+    "extras": {
+    "bay": 2,
+    "shelf": 8,
+    "product_tpnb_list": "96302729, 96092014, 96099957",
+    "product_id_list": "0470bdfe-1483-47dd-906d-70530f7fe331, 4421f885-1dd8-4c59-9f98-473d8c143939, d644ace5-3b3f-4ec2-987e-953bc84a25a0"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "DENTURE__POLIGRIP",
+    "extras": {
+    "bay": 2,
+    "shelf": 8,
+    "product_tpnb_list": "60237274, 85718456",
+    "product_id_list": "d1807380-5131-4f41-b478-8ef0dde0233e, da62e198-b4f8-4476-ba31-65583670fbe6"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "MOUTHWASH__LISTERINE",
+    "extras": {
+    "bay": 3,
+    "shelf": 2,
+    "product_tpnb_list": "86436505, 52640303, 67902150, 52327548, 57527428",
+    "product_id_list": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "MOUTHWASH__LISTERINE",
+    "extras": {
+    "bay": 3,
+    "shelf": 3,
+    "product_tpnb_list": "64708264, 61463009, 56945576, 75090324",
+    "product_id_list": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand",
+    "level_value": "MOUTHWASH__LISTERINE",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 3,
+    "product_tpnb_list_shelf_1": "86436505, 52640303, 67902150, 52327548, 57527428",
+    "product_tpnb_list_shelf_2": "64708264, 61463009, 56945576, 75090324",
+    "product_id_list_shelf_1": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5",
+    "product_id_list_shelf_2": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "MOUTHWASH__CORSODYL",
+    "extras": {
+    "bay": 3,
+    "shelf": 4,
+    "product_tpnb_list": "56522201, 87233899, 87227826",
+    "product_id_list": "a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "SENSITIVE TOOTHPASTE__CORSODYL",
+    "extras": {
+    "bay": 3,
+    "shelf": 5,
+    "product_tpnb_list": "88905184, 86420938, 91892607, 93276120",
+    "product_id_list": "bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE",
+    "extras": {
+    "bay": 3,
+    "shelf": 5,
+    "product_tpnb_list": "79164883, 79164670",
+    "product_id_list": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE",
+    "extras": {
+    "bay": 3,
+    "shelf": 6,
+    "product_tpnb_list": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+    "product_id_list": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE",
+    "extras": {
+    "bay": 3,
+    "shelf": 7,
+    "product_tpnb_list": "64521242, 92865921, 96306760",
+    "product_id_list": "1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 3,
+    "product_tpnb_list_shelf_1": "79164883, 79164670, 79164883, 79164670, 82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+    "product_tpnb_list_shelf_2": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869, 64521242, 92865921, 96306760, 64521242, 92865921, 96306760",
+    "product_id_list_shelf_1": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5",
+    "product_id_list_shelf_2": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand",
+    "level_value": "SENSITIVE TOOTHPASTE__PRONAMEL",
+    "extras": {
+    "bay": 3,
+    "shelf": 7,
+    "product_tpnb_list": "87228071, 87584794, 93337088",
+    "product_id_list": "2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "KIDS__AQUAFRESH__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 1,
+    "product_tpnb_list": "61452116, 91256336, 81116754, 88903192",
+    "product_id_list": "92162e89-75d9-47a8-af29-9d7e7769ac8b, 910c6a65-f5b0-4acc-b6ac-e5a6f1de60fe, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "KIDS__AQUAFRESH__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 2,
+    "product_tpnb_list": "74168299, 81116731, 84538526, 61489561",
+    "product_id_list": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "KIDS__AQUAFRESH__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "61452116, 91256336, 81116754, 88903192",
+    "product_tpnb_list_shelf_2": "74168299, 81116731, 84538526, 61489561",
+    "product_id_list_shelf_1": "92162e89-75d9-47a8-af29-9d7e7769ac8b, 910c6a65-f5b0-4acc-b6ac-e5a6f1de60fe, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1",
+    "product_id_list_shelf_2": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "KIDS__TESCO PROFORMULA__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 1,
+    "product_tpnb_list": "85992832, 85992262",
+    "product_id_list": "1ddbd0dd-3f2d-4e35-96b5-ce99d0742d3e, 1b18c379-8de7-4686-b9e7-7ad95d15eb0b"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "KIDS__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 2,
+    "product_tpnb_list": "80184938, 85988423",
+    "product_id_list": "7b151fca-93cf-4b86-be94-e61d612db227, b96aef40-ada1-45d3-a026-8f301ce5f82c"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "POWERED BRUSH__ORAL-B__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 4,
+    "product_tpnb_list": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+    "product_id_list": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "POWERED BRUSH__ORAL-B__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 5,
+    "product_tpnb_list": "90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list": "798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "POWERED BRUSH__ORAL-B__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "product_tpnb_list": "92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list": "c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "POWERED BRUSH__ORAL-B__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "92000950, 92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+    "product_tpnb_list_shelf_2": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list_shelf_1": "c07ed270-f072-422b-a181-7a0f2c91f4e6, c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf",
+    "product_id_list_shelf_2": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "MANUAL BRUSH__PRO FORMULA__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 3,
+    "product_tpnb_list": "85112648, 73545868",
+    "product_id_list": "9bfec8c7-27b8-4f53-b5a2-5fb9679c22ac, 66fdb473-a357-481b-848a-bf5fd102d8ea"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "MANUAL BRUSH__ORAL-B__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 3,
+    "product_tpnb_list": "73397564, 80568675",
+    "product_id_list": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "MANUAL BRUSH__ORAL-B__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "73397564, 80568675",
+    "product_tpnb_list_shelf_2": "57522658",
+    "product_id_list_shelf_1": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0",
+    "product_id_list_shelf_2": "82d338c9-c326-4c3a-ac1f-699866b14de2"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "MANUAL BRUSH__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 3,
+    "product_tpnb_list": "92048040, 67934516, 57565198, 89261652, 63820517, 73325985, 87181352, 60227614, 92008059, 67369291",
+    "product_id_list": "dcc1d818-58de-4309-80cb-c3fc62cbe36d, f1cd0358-88df-4bec-83d0-35759a82a8c7, bfbdced2-59a4-427f-8c84-a7c6938d1011, dba070d6-805e-47b1-a5a1-053a4a2eb240, dab31f5b-3b31-4ce4-85ee-d6b3e634a598, 99a98990-36bb-417c-b636-5e2014692176, 1c4d4fee-cc98-4475-8056-6610f866a6bf, 99a2bdae-cc9f-4b78-b172-bea1c48cf35b, 472aac76-046f-46c6-8f91-6cd9024fc66e, 367c0195-d05d-4340-8937-b13b177dc6b7"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "POWERED BRUSH__PRO FORMULA__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 4,
+    "product_tpnb_list": "83909251, 88898672",
+    "product_id_list": "25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "DENTAL ACCESSORIES__PRO FORMULA__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "73560688, 73560671, 91886454, 91712701, 91777733, 91892642, 91832518",
+    "product_id_list": "fc4f3ef2-4bac-4809-b588-288530b43ea7, d45670b3-c10a-48d3-ab10-532fe281a45e, 02254f07-8456-415f-8eab-823ed7e21146, 62b3931b-68a9-465b-a2aa-2dd88754ba9e, 61532d53-dacf-4bf5-851d-ecae514c61b9, aeeda34f-4fa8-44fa-80fb-07f91f2fc6d6, 4bac881d-87c3-41a6-bf65-d9b31b0fc99f"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "DENTAL ACCESSORIES__ORAL-B__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "54213708, 56906531",
+    "product_id_list": "fabb3a27-d658-4a19-8bbb-09393a3e73b9, 508bd6a7-1b16-442c-816e-4afca7507caa"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "DENTAL ACCESSORIES__PLACKERS__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "92002296, 91882153, 91493659",
+    "product_id_list": "fb19c791-56d0-4af0-ab51-c7ffaab5b831, bef64681-221e-4d3e-9a89-8d1dae6e0c43, 44173eff-d3c1-45d3-8565-8fad14b1e64e"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "DENTAL ACCESSORIES__TEPE__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "65732866, 92340420, 57539408",
+    "product_id_list": "db6a11d8-7a89-45f3-859b-07ca8520454c, 66b7929e-f89e-46b2-8dab-25c48fc6552f, 6625b10c-4960-4161-8bcc-5dd20b7c3035"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "REGULAR TOOTHPASTE__AQUAFRESH__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 1,
+    "product_tpnb_list": "93038799, 96305409, 96233102",
+    "product_id_list": "1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "WHITENING TOOTHPASTE__ARM & HAMMER__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 1,
+    "product_tpnb_list": "87229283, 85718491",
+    "product_id_list": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 2,
+    "product_tpnb_list": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264",
+    "product_id_list": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 3,
+    "product_tpnb_list": "85878611, 83591745, 85878605",
+    "product_id_list": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 4,
+    "product_tpnb_list": "96094670, 96093791, 96103199",
+    "product_id_list": "95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 5,
+    "product_tpnb_list": "93547254, 96096534, 93422177, 93278854, 93282036",
+    "product_id_list": "e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199",
+    "product_tpnb_list_shelf_2": "85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 93547254, 96096534, 93422177, 93278854, 93282036",
+    "product_id_list_shelf_1": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf",
+    "product_id_list_shelf_2": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "MOUTHWASH__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 1,
+    "product_tpnb_list": "87689221, 51164799, 51257776, 76900432",
+    "product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "MOUTHWASH__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "product_tpnb_list": "87689221, 51164799, 51257776, 76900432, 50690223",
+    "product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, 66e05545-359a-48a0-a61a-8585a408182e"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "MOUTHWASH__COLGATE__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 3,
+    "product_tpnb_list_shelf_1": "87689221, 51164799, 51257776, 76900432",
+    "product_tpnb_list_shelf_2": "50690223",
+    "product_id_list_shelf_1": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159",
+    "product_id_list_shelf_2": "66e05545-359a-48a0-a61a-8585a408182e"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 3,
+    "product_tpnb_list": "83591722, 85983699, 96172559",
+    "product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 6,
+    "product_tpnb_list": "90784098, 93419781, 85976725",
+    "product_id_list": "6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "product_tpnb_list": "83591722, 85983699, 96172559, 67381724, 90784098, 93419781, 85976725",
+    "product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "83591722, 85983699, 96172559, 83591722, 85983699, 96172559, 67381724",
+    "product_tpnb_list_shelf_2": "67381724, 90784098, 93419781, 85976725, 90784098, 93419781, 85976725",
+    "product_id_list_shelf_1": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719",
+    "product_id_list_shelf_2": "76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "SENSITIVE TOOTHPASTE__COLGATE__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 4,
+    "product_tpnb_list": "79360074, 94043497, 96095161",
+    "product_id_list": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "WHITENING TOOTHPASTE__ORAL-B__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 6,
+    "product_tpnb_list": "82781159, 92058340, 80568632, 89263670, 92192167",
+    "product_id_list": "a286b47d-3eec-418c-aeca-f827dfcda62a, 6cdd4291-067a-4878-9a37-bb204fc09aca, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "REGULAR TOOTHPASTE__ORAL-B__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 7,
+    "product_tpnb_list": "84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+    "product_id_list": "702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "SENSITIVE TOOTHPASTE__ORAL-B__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "94044277",
+    "product_tpnb_list_shelf_2": "92000563",
+    "product_id_list_shelf_1": "89fb73e2-41b9-4dbc-a689-e078391bc863",
+    "product_id_list_shelf_2": "5cdb46e9-6a86-4a5a-ae8d-ad35253dd361"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "DENTURE__FIXODENT__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 8,
+    "product_tpnb_list": "96302729, 96092014, 96099957",
+    "product_id_list": "0470bdfe-1483-47dd-906d-70530f7fe331, 4421f885-1dd8-4c59-9f98-473d8c143939, d644ace5-3b3f-4ec2-987e-953bc84a25a0"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "DENTURE__POLIGRIP__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 8,
+    "product_tpnb_list": "60237274, 85718456",
+    "product_id_list": "d1807380-5131-4f41-b478-8ef0dde0233e, da62e198-b4f8-4476-ba31-65583670fbe6"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "MOUTHWASH__LISTERINE__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 2,
+    "product_tpnb_list": "86436505, 52640303, 67902150, 52327548, 57527428",
+    "product_id_list": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "MOUTHWASH__LISTERINE__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 3,
+    "product_tpnb_list": "64708264, 61463009, 56945576, 75090324",
+    "product_id_list": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "MOUTHWASH__LISTERINE__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 3,
+    "product_tpnb_list_shelf_1": "86436505, 52640303, 67902150, 52327548, 57527428",
+    "product_tpnb_list_shelf_2": "64708264, 61463009, 56945576, 75090324",
+    "product_id_list_shelf_1": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5",
+    "product_id_list_shelf_2": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "MOUTHWASH__CORSODYL__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 4,
+    "product_tpnb_list": "56522201, 87233899, 87227826",
+    "product_id_list": "a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "SENSITIVE TOOTHPASTE__CORSODYL__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 5,
+    "product_tpnb_list": "88905184, 86420938, 91892607, 93276120",
+    "product_id_list": "bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 5,
+    "product_tpnb_list": "79164883, 79164670",
+    "product_id_list": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 6,
+    "product_tpnb_list": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+    "product_id_list": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 7,
+    "product_tpnb_list": "64521242, 92865921, 96306760",
+    "product_id_list": "1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 3,
+    "product_tpnb_list_shelf_1": "79164883, 79164670, 79164883, 79164670, 82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+    "product_tpnb_list_shelf_2": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869, 64521242, 92865921, 96306760, 64521242, 92865921, 96306760",
+    "product_id_list_shelf_1": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5",
+    "product_id_list_shelf_2": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform",
+    "level_value": "SENSITIVE TOOTHPASTE__PRONAMEL__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 7,
+    "product_tpnb_list": "87228071, 87584794, 93337088",
+    "product_id_list": "2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "KIDS__AQUAFRESH__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 1,
+    "product_tpnb_list": "61452116, 91256336, 81116754, 88903192",
+    "product_id_list": "92162e89-75d9-47a8-af29-9d7e7769ac8b, 910c6a65-f5b0-4acc-b6ac-e5a6f1de60fe, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "KIDS__AQUAFRESH__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 2,
+    "product_tpnb_list": "74168299, 81116731, 84538526, 61489561",
+    "product_id_list": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "KIDS__AQUAFRESH__UNKNOWN__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "61452116, 91256336, 81116754, 88903192",
+    "product_tpnb_list_shelf_2": "74168299, 81116731, 84538526, 61489561",
+    "product_id_list_shelf_1": "92162e89-75d9-47a8-af29-9d7e7769ac8b, 910c6a65-f5b0-4acc-b6ac-e5a6f1de60fe, e0aefa2e-eb72-432e-bacb-faf0bc512aca, 9b5753e9-67ca-409b-8c91-eb7c6f60f7c1",
+    "product_id_list_shelf_2": "1bdc659a-9840-44c6-a680-bb6452647dab, 6f666424-3f8b-44c7-8d71-90bec18ae509, f1050843-d1a6-4202-aaf1-ad805f618a72, b091fd18-87ca-417e-b528-cca1e787adf2"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "KIDS__TESCO PROFORMULA__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 1,
+    "product_tpnb_list": "85992832, 85992262",
+    "product_id_list": "1ddbd0dd-3f2d-4e35-96b5-ce99d0742d3e, 1b18c379-8de7-4686-b9e7-7ad95d15eb0b"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "KIDS__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 2,
+    "product_tpnb_list": "80184938, 85988423",
+    "product_id_list": "7b151fca-93cf-4b86-be94-e61d612db227, b96aef40-ada1-45d3-a026-8f301ce5f82c"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "POWERED BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 4,
+    "product_tpnb_list": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+    "product_id_list": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "POWERED BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 5,
+    "product_tpnb_list": "90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list": "798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "POWERED BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "product_tpnb_list": "92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list": "c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "POWERED BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "92000950, 92000950, 92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300",
+    "product_tpnb_list_shelf_2": "92050497, 92204260, 91059830, 92202802, 91777641, 92126564, 91835521, 90605300, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127, 90776730, 92658775, 90777308, 92008854, 96171629, 96183333, 96175994, 92197127",
+    "product_id_list_shelf_1": "c07ed270-f072-422b-a181-7a0f2c91f4e6, c07ed270-f072-422b-a181-7a0f2c91f4e6, 4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf",
+    "product_id_list_shelf_2": "4a258c3f-8fb2-4ba4-8c1e-8db2a89f16ba, b940bff7-044a-49f1-b366-0f7f7555a19d, 25c9b39e-ec9b-49fe-8c2d-485b83ade572, 3b32c279-f547-4d16-b1e8-85a925b215cd, 0ddce263-6335-441e-b8c7-f9075f9740d1, 7fa35f00-3dd4-434e-a634-78bb3d49195d, 29ee3db3-e46d-4e2c-9ce9-3c765749c4c3, 5baf3ee4-4b8a-41e6-8d56-1fc7c7f2a3cf, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412, 798b9d39-fa3b-460a-9f07-d6be60fe12b5, f58cf3ee-b9f2-4e13-bafe-1bbfba7646d0, ef12e30c-fb98-4131-a303-b2fffd56f5ab, 300ec042-6c51-49dd-a0f7-284c3779c098, 6e95050c-0be2-4261-9bbd-4b8f52799f0b, ba1b64d4-1504-4845-8268-976b76854a49, 742a510a-480e-419c-9303-6a99cbd2542e, c10f4517-9596-4bdf-a3e5-c283e0c19412"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "MANUAL BRUSH__PRO FORMULA__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 3,
+    "product_tpnb_list": "85112648, 73545868",
+    "product_id_list": "9bfec8c7-27b8-4f53-b5a2-5fb9679c22ac, 66fdb473-a357-481b-848a-bf5fd102d8ea"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "MANUAL BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 3,
+    "product_tpnb_list": "73397564, 80568675",
+    "product_id_list": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "MANUAL BRUSH__ORAL-B__UNKNOWN__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 1,
+    "product_tpnb_list_shelf_1": "73397564, 80568675",
+    "product_tpnb_list_shelf_2": "57522658",
+    "product_id_list_shelf_1": "422a9408-467f-4756-812e-255ed0d6a48e, 79b8331d-b286-42a0-b6ea-04ff98b217e0",
+    "product_id_list_shelf_2": "82d338c9-c326-4c3a-ac1f-699866b14de2"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "MANUAL BRUSH__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 3,
+    "product_tpnb_list": "92048040, 67934516, 57565198, 89261652, 63820517, 73325985, 87181352, 60227614, 92008059, 67369291",
+    "product_id_list": "dcc1d818-58de-4309-80cb-c3fc62cbe36d, f1cd0358-88df-4bec-83d0-35759a82a8c7, bfbdced2-59a4-427f-8c84-a7c6938d1011, dba070d6-805e-47b1-a5a1-053a4a2eb240, dab31f5b-3b31-4ce4-85ee-d6b3e634a598, 99a98990-36bb-417c-b636-5e2014692176, 1c4d4fee-cc98-4475-8056-6610f866a6bf, 99a2bdae-cc9f-4b78-b172-bea1c48cf35b, 472aac76-046f-46c6-8f91-6cd9024fc66e, 367c0195-d05d-4340-8937-b13b177dc6b7"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "POWERED BRUSH__PRO FORMULA__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 4,
+    "product_tpnb_list": "83909251, 88898672",
+    "product_id_list": "25fa4c08-87dc-4b25-aee0-27fbfac0dd1f, 4624b374-0b44-4151-86a5-de123f260453"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "DENTAL ACCESSORIES__PRO FORMULA__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "73560688, 73560671, 91886454, 91712701, 91777733, 91892642, 91832518",
+    "product_id_list": "fc4f3ef2-4bac-4809-b588-288530b43ea7, d45670b3-c10a-48d3-ab10-532fe281a45e, 02254f07-8456-415f-8eab-823ed7e21146, 62b3931b-68a9-465b-a2aa-2dd88754ba9e, 61532d53-dacf-4bf5-851d-ecae514c61b9, aeeda34f-4fa8-44fa-80fb-07f91f2fc6d6, 4bac881d-87c3-41a6-bf65-d9b31b0fc99f"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "DENTAL ACCESSORIES__ORAL-B__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "54213708, 56906531",
+    "product_id_list": "fabb3a27-d658-4a19-8bbb-09393a3e73b9, 508bd6a7-1b16-442c-816e-4afca7507caa"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "DENTAL ACCESSORIES__PLACKERS__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "92002296, 91882153, 91493659",
+    "product_id_list": "fb19c791-56d0-4af0-ab51-c7ffaab5b831, bef64681-221e-4d3e-9a89-8d1dae6e0c43, 44173eff-d3c1-45d3-8565-8fad14b1e64e"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "DENTAL ACCESSORIES__TEPE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 1,
+    "shelf": 6,
+    "product_tpnb_list": "65732866, 92340420, 57539408",
+    "product_id_list": "db6a11d8-7a89-45f3-859b-07ca8520454c, 66b7929e-f89e-46b2-8dab-25c48fc6552f, 6625b10c-4960-4161-8bcc-5dd20b7c3035"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "REGULAR TOOTHPASTE__AQUAFRESH__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 1,
+    "product_tpnb_list": "93038799, 96305409, 96233102",
+    "product_id_list": "1b35982f-b172-4360-836f-8a0cf9392d4e, c9b42051-8b41-4e3d-b9ec-56ec0312d7e5, 8e884a2d-d57d-49da-89fe-173cbaa8ee48"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "WHITENING TOOTHPASTE__ARM & HAMMER__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 1,
+    "product_tpnb_list": "87229283, 85718491",
+    "product_id_list": "eb240d67-0a18-45e5-91ce-9942953272ab, a671877f-d526-4bbe-b910-17f0e37478d7"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 2,
+    "product_tpnb_list": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264",
+    "product_id_list": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 3,
+    "product_tpnb_list": "85878611, 83591745, 85878605",
+    "product_id_list": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 4,
+    "product_tpnb_list": "96094670, 96093791, 96103199",
+    "product_id_list": "95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 5,
+    "product_tpnb_list": "93547254, 96096534, 93422177, 93278854, 93282036",
+    "product_id_list": "e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "REGULAR TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 91713683, 91391843, 93155510, 50361803, 60238676, 93942264, 85878611, 83591745, 85878605, 85878611, 83591745, 85878605, 96094670, 96093791, 96103199",
+    "product_tpnb_list_shelf_2": "85878611, 83591745, 85878605, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 96094670, 96093791, 96103199, 93547254, 96096534, 93422177, 93278854, 93282036, 93547254, 96096534, 93422177, 93278854, 93282036",
+    "product_id_list_shelf_1": "93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 93a6c565-0bf9-4704-bda8-0383ea262339, 204f9e29-a310-416e-875e-cb0b4e6e4103, a3553d41-3ddc-4976-9e96-a4f51655a6d8, eb8736b7-7576-4dd1-9138-73232cdc990f, 3059a7e4-bff1-44f2-b28f-145b36b42fb6, 6ca126f5-5971-4c34-bd05-b4fa5d077ad2, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf",
+    "product_id_list_shelf_2": "39773974-2974-4984-9eb8-c44b187d13d0, ed9374f1-5e80-430c-9d9d-858e0e7ce896, 9b051c6b-c6a6-4738-b001-9b5d77136e50, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, 95f6befa-8d9b-44b6-9749-06f832f47074, 1d3c8bd1-87dd-4cb8-9678-fbd04b64e93f, 8e3b26c7-0b09-48ab-a4fd-d663b20c4acf, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912, e29e3c52-9e39-4121-9d84-4dc3e974eeb3, 1b5a4678-142a-473b-8bff-687a6f446440, 6c3603e3-5183-4bce-b8d9-e3e2abd12977, 9a71b550-702d-4705-bfdb-412cc01fdfc8, f33045b0-b4cd-450d-9e81-41f8ab043912"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "MOUTHWASH__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 1,
+    "product_tpnb_list": "87689221, 51164799, 51257776, 76900432",
+    "product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "MOUTHWASH__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "product_tpnb_list": "87689221, 51164799, 51257776, 76900432, 50690223",
+    "product_id_list": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159, 66e05545-359a-48a0-a61a-8585a408182e"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "MOUTHWASH__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 3,
+    "product_tpnb_list_shelf_1": "87689221, 51164799, 51257776, 76900432",
+    "product_tpnb_list_shelf_2": "50690223",
+    "product_id_list_shelf_1": "4fbc6463-9030-4461-952f-cd963d6c1061, 1f88c2e3-abc2-4781-af3b-5cb9f3c4e98e, 30758d17-bfc8-43da-bd56-74bed75991a9, 35b523e1-0ed7-40bb-aeab-a1f082f40159",
+    "product_id_list_shelf_2": "66e05545-359a-48a0-a61a-8585a408182e"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 3,
+    "product_tpnb_list": "83591722, 85983699, 96172559",
+    "product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 6,
+    "product_tpnb_list": "90784098, 93419781, 85976725",
+    "product_id_list": "6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "consecutive_shelves_within_bay",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "product_tpnb_list": "83591722, 85983699, 96172559, 67381724, 90784098, 93419781, 85976725",
+    "product_id_list": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "WHITENING TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "83591722, 85983699, 96172559, 83591722, 85983699, 96172559, 67381724",
+    "product_tpnb_list_shelf_2": "67381724, 90784098, 93419781, 85976725, 90784098, 93419781, 85976725",
+    "product_id_list_shelf_1": "cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, cf9986cb-b8d2-4073-a652-116461e2f84f, 3a6dcf77-8da8-427c-864c-c9b890036caf, 39ee8da2-fc36-4ee2-af6e-8560b51cc9ab, 76c2f05b-54e2-48d6-9e1f-c69102a16719",
+    "product_id_list_shelf_2": "76c2f05b-54e2-48d6-9e1f-c69102a16719, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41, 6776fc96-0714-404a-8047-ea7fdc90e506, 2755940a-566b-418b-98df-e4bc58fe7c60, 44c99c94-eadb-4bd5-b544-a31c23335e41"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "SENSITIVE TOOTHPASTE__COLGATE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 4,
+    "product_tpnb_list": "79360074, 94043497, 96095161",
+    "product_id_list": "a4739b18-b587-4aec-bf8a-e2c0f7e75f91, 77186675-512a-48e2-8802-36f065456534, 501fb00c-8038-47f9-85db-e887d35edd25"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "WHITENING TOOTHPASTE__ORAL-B__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 6,
+    "product_tpnb_list": "82781159, 92058340, 80568632, 89263670, 92192167",
+    "product_id_list": "a286b47d-3eec-418c-aeca-f827dfcda62a, 6cdd4291-067a-4878-9a37-bb204fc09aca, 73bd88ed-724f-4d74-84b6-086320787ca6, 60773dad-37c6-4506-8cfd-d39c69d68532, 54a6ecf8-34e5-4c94-b63c-beae0257635c"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "REGULAR TOOTHPASTE__ORAL-B__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 7,
+    "product_tpnb_list": "84539099, 53248438, 90937108, 89981286, 96246634, 96182766",
+    "product_id_list": "702b22d6-06c5-4adc-bb09-6ae00e21e40a, 6a4ca072-57d1-42c1-a8c1-444f2de45a90, 1999b42d-bc14-43b0-a081-4ea06102f5ff, ec03dbb8-2cb6-4d4f-8d73-4338faef6646, 20647c3c-67eb-4c87-993d-7f0c754402cb, e2c3b4ea-9df1-4026-9a59-57bb9fd7691c"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "SENSITIVE TOOTHPASTE__ORAL-B__UNKNOWN__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 2,
+    "product_tpnb_list_shelf_1": "94044277",
+    "product_tpnb_list_shelf_2": "92000563",
+    "product_id_list_shelf_1": "89fb73e2-41b9-4dbc-a689-e078391bc863",
+    "product_id_list_shelf_2": "5cdb46e9-6a86-4a5a-ae8d-ad35253dd361"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "DENTURE__FIXODENT__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 8,
+    "product_tpnb_list": "96302729, 96092014, 96099957",
+    "product_id_list": "0470bdfe-1483-47dd-906d-70530f7fe331, 4421f885-1dd8-4c59-9f98-473d8c143939, d644ace5-3b3f-4ec2-987e-953bc84a25a0"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "DENTURE__POLIGRIP__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 2,
+    "shelf": 8,
+    "product_tpnb_list": "60237274, 85718456",
+    "product_id_list": "d1807380-5131-4f41-b478-8ef0dde0233e, da62e198-b4f8-4476-ba31-65583670fbe6"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "MOUTHWASH__LISTERINE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 2,
+    "product_tpnb_list": "86436505, 52640303, 67902150, 52327548, 57527428",
+    "product_id_list": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "MOUTHWASH__LISTERINE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 3,
+    "product_tpnb_list": "64708264, 61463009, 56945576, 75090324",
+    "product_id_list": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "MOUTHWASH__LISTERINE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 3,
+    "product_tpnb_list_shelf_1": "86436505, 52640303, 67902150, 52327548, 57527428",
+    "product_tpnb_list_shelf_2": "64708264, 61463009, 56945576, 75090324",
+    "product_id_list_shelf_1": "e0a25a01-4d0e-4dae-bfcb-282839755671, d0e934c2-4ce3-4f15-bf24-d760e139ad1b, 67d1c91d-1823-4d19-9414-8a713925d141, fa0bba79-812c-479b-b0a4-aaae414c83c7, d420d25c-3aa4-4228-9d45-d4c335d86bc5",
+    "product_id_list_shelf_2": "f68a791a-48f6-4948-9efe-f56fd9cd9288, 8a9fc342-82d3-4633-85d7-748979a856f2, 80c11e6b-e3d3-4b58-b5c4-a415996b83b3, 095046e1-26af-4488-bf10-f235b9fb8a03"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "MOUTHWASH__CORSODYL__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 4,
+    "product_tpnb_list": "56522201, 87233899, 87227826",
+    "product_id_list": "a54b0cf5-c80e-4431-8285-9fb1967a55cb, d458db48-b428-4074-9e68-0f456a341052, bb81149f-5a76-4038-a095-3ab709fe3bce"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "SENSITIVE TOOTHPASTE__CORSODYL__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 5,
+    "product_tpnb_list": "88905184, 86420938, 91892607, 93276120",
+    "product_id_list": "bff3577b-ed40-40d8-afdf-ce82b79335e1, 8e03d7a6-1a1d-4f71-a237-51c4e84edc9a, 30fba2cb-dc09-4aca-963e-ff6e5cf4537d, f3ba8b69-707e-4f5e-88e5-eb366bb41d62"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 5,
+    "product_tpnb_list": "79164883, 79164670",
+    "product_id_list": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 6,
+    "product_tpnb_list": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+    "product_id_list": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 7,
+    "product_tpnb_list": "64521242, 92865921, 96306760",
+    "product_id_list": "1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+    }
+    },
+    {
+    "type": "cross_shelf_x_overlap",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "SENSITIVE TOOTHPASTE__SENSODYNE__UNKNOWN__UNKNOWN",
+    "extras": {
+    "min_x_iou": 0,
+    "avg_x_iou": 0,
+    "max_x_iou": 0,
+    "med_x_iou": 0,
+    "threshold": 0.25,
+    "bay": 3,
+    "product_tpnb_list_shelf_1": "79164883, 79164670, 79164883, 79164670, 82781418, 86345250, 86345296, 91999067, 88717873, 88905869",
+    "product_tpnb_list_shelf_2": "82781418, 86345250, 86345296, 91999067, 88717873, 88905869, 64521242, 92865921, 96306760, 64521242, 92865921, 96306760",
+    "product_id_list_shelf_1": "046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 046e41cb-cb03-4997-b327-ac0576fbc367, 6bac6119-3350-4bdc-aef1-858183cd93f7, 68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5",
+    "product_id_list_shelf_2": "68a3854c-2ad8-49e5-97e4-398a7c39ea22, 98490a5e-9d08-48fe-b8b5-722347b82496, b8b98a09-a4d8-41d2-99cb-f7fb817c1487, b7329c94-af9b-457e-bf93-444374c06261, 1df3e92e-ddf7-4dfa-ba45-29577726e5e6, 1fc42975-7882-47f9-8ccb-cfee476935f5, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542, 1603fd1f-3b79-4750-aebd-b80a8d30442f, 3913fa14-84fa-4716-91d6-58e42c3f5840, b76a509d-1c6c-4eeb-a518-589743ea5542"
+    }
+    },
+    {
+    "type": "consecutive_positions_within_shelf",
+    "level_name": "subgroup__brand__platform__intensity",
+    "level_value": "SENSITIVE TOOTHPASTE__PRONAMEL__UNKNOWN__UNKNOWN",
+    "extras": {
+    "bay": 3,
+    "shelf": 7,
+    "product_tpnb_list": "87228071, 87584794, 93337088",
+    "product_id_list": "2f8d5ab5-3631-4234-8f11-f3d455f0d49f, 955f95d2-7d77-42cf-9a8d-63f8a7648982, 04964f46-7ecd-4990-873a-7ae4f66b1f91"
+    }
+    }
+    ]
+    }
+    }

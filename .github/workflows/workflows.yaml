@@ -1,0 +1,21 @@
+name: ace-DATA-KACR/ace-data-maturity-fe
+on:
+  push:
+    branches:
+      - master
+      - qa
+      - Develop
+  workflow_dispatch: {}
+
+jobs:
+  CI-Workflow:
+    uses: KENVUE-DEVEX/Katalyst-Workflow-Library/.github/workflows/katalyst-npm-ci.yaml@main
+    secrets: inherit
+
+  CD-Workflow:
+    needs: CI-Workflow 
+    uses: KENVUE-DEVEX/Katalyst-Workflow-Library/.github/workflows/katalyst-msp-cd.yaml@main
+    secrets: inherit
+    with:
+      BUILD_IMAGE_NAME: ${{ needs.CI-Workflow.outputs.BUILD_IMAGE_NAME }}
+      Artifact_Tag: ${{ needs.CI-Workflow.outputs.Artifact_Tag }}

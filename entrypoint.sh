@@ -1,0 +1,12 @@
+#!/bin/sh
+cat <<EOF > /app/env.js
+window._env_ = {
+  VITE_REACT_APP_BACKEND: "${VITE_REACT_APP_BACKEND}",
+  VITE_MSAL_CLIENT_ID: "${VITE_MSAL_CLIENT_ID}",
+  VITE_MSAL_AUTHORITY: "${VITE_MSAL_AUTHORITY}",
+  VITE_MSAL_REDIRECT_URI: "${VITE_MSAL_REDIRECT_URI}"
+};
+EOF
+
+# Start serve
+exec serve -s . -l 3000

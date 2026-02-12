@@ -1,0 +1,62 @@
+{
+    "type": "Topology",
+    "objects": {
+      "countries": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "properties": {
+              "NAME": "France",
+              "ISO_A3": "FRA"
+            },
+            "arcs": [[0]]
+          },
+          {
+            "type": "Polygon",
+            "properties": {
+              "NAME": "Germany",
+              "ISO_A3": "DEU"
+            },
+            "arcs": [[1]]
+          },
+          {
+            "type": "Polygon",
+            "properties": {
+              "NAME": "Italy",
+              "ISO_A3": "ITA"
+            },
+            "arcs": [[2]]
+          },
+          {
+            "type": "Polygon",
+            "properties": {
+              "NAME": "Spain",
+              "ISO_A3": "ESP"
+            },
+            "arcs": [[3]]
+          },
+          {
+            "type": "Polygon",
+            "properties": {
+              "NAME": "United Kingdom",
+              "ISO_A3": "GBR"
+            },
+            "arcs": [[4]]
+          }
+        ]
+      }
+    },
+    "arcs": [
+      [[[2, 2], [1, 0], [0, 1], [-1, 0], [0, -1]]],
+      [[[4, 4], [1, 0], [0, 1], [-1, 0], [0, -1]]],
+      [[[6, 6], [1, 0], [0, 1], [-1, 0], [0, -1]]],
+      [[[8, 8], [1, 0], [0, 1], [-1, 0], [0, -1]]],
+      [[[10, 10], [1, 0], [0, 1], [-1, 0], [0, -1]]]
+    ],
+    "transform": {
+      "scale": [0.01, 0.01],
+      "translate": [0, 0]
+    }
+  }
+  

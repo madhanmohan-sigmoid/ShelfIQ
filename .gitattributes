@@ -1,0 +1,2 @@
+# Always keep the target branch version of CODEOWNERS during merges
+CODEOWNERS merge=ours

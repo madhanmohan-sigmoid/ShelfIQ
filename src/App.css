@@ -1,0 +1,107 @@
+.ag-header-center-align .ag-header-cell-label {
+    justify-content: center;
+    text-align: center;
+  }
+
+.range-review-header .ag-header-cell-label {
+    line-height: 1.4 !important;
+    word-spacing: 0.1em;
+    justify-content: center !important;
+    text-align: center;
+} 
+.ag-header-custom {
+    background-color: #FFD3D3 !important; /* your desired header color */
+    color: #000; /* optional: text color */
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Planogram Table headers only */
+.planogram-table.ag-theme-quartz .ag-header,
+.planogram-table.ag-theme-quartz .ag-header-cell,
+.planogram-table.ag-theme-quartz .ag-header-cell .ag-header-cell-label {
+  background-color: #FFEBBF !important; /* light yellow */
+  color: #111827 !important;            /* dark text for contrast */
+  font-weight: 600 !important;          /* bold for visibility */
+}
+
+/* MyPlanogram Table headers - Orange theme */
+.myplanogram-table.ag-theme-quartz .ag-header,
+.myplanogram-table.ag-theme-quartz .ag-header-cell,
+.myplanogram-table.ag-theme-quartz .ag-header-cell .ag-header-cell-label {
+  background-color: #FFDDCA !important; /* light orange */
+  color: #111827 !important;            /* dark text for contrast */
+  font-weight: 600 !important;          /* bold for visibility */
+}
+
+/* MassUpdate Table headers - Light green/yellow theme */
+.massupdate-table.ag-theme-quartz .ag-header,
+.massupdate-table.ag-theme-quartz .ag-header-cell,
+.massupdate-table.ag-theme-quartz .ag-header-cell .ag-header-cell-label {
+  background-color: #E8F0B7 !important; /* light green/yellow */
+  color: #111827 !important;            /* dark text for contrast */
+  font-weight: 600 !important;          /* bold for visibility */
+}
+
+/* Step 2: hide checkbox for reference planogram row (user cannot apply mass update to itself) */
+.massupdate-table .ag-row-reference-planogram .ag-selection-checkbox {
+  display: none !important;
+}
+
+/*
+  .ag-header-center-align .ag-header-cell-label {
+    justify-content: center !important;
+    
+    white-space: normal; 
+    line-height: 1.3;
+  }
+
+  
+.two-line-header-ellipsis .ag-header-cell-label {
+    white-space: normal !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  
+    -webkit-box-orient: vertical;
+    line-height: 1.2;
+    max-height: 4em; 
+    text-align: center;
+  }
+
+   Hides all sort icons in AG Grid Quartz theme
+.ag-theme-quartz .ag-header-cell .ag-sort-ascending-icon,
+.ag-theme-quartz .ag-header-cell .ag-sort-descending-icon,
+.ag-theme-quartz .ag-header-cell .ag-sort-none-icon,
+.ag-theme-quartz .ag-header-cell .ag-sort-indicator-icon,
+.ag-theme-quartz .ag-header-cell .ag-sort-order {
+  display: none !important;
+  visibility: hidden !important;
+} 
+
+.ag-header-cell-label {
+    white-space: normal !important;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;       
+    -webkit-box-orient: vertical;
+  }
+
+  .ag-header-cell-label {
+    white-space: normal !important;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .ag-header-center-align .ag-header-cell-label {
+    justify-content: center !important;
+    text-align: center;
+  }
+   */

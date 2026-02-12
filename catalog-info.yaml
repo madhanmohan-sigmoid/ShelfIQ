@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ace-data-maturity-fe"   # repo name 
+  title: "ace-data-maturity-fe"
+  description: "ace-data-maturity-fe pipeline"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: DATA-KACR/ace-data-maturity-fe
+    sonarqube.org/project-key: "ace-data-maturity-fe"
+    nexus-repository-manager/docker.image-name: data-kacr-docker-hosted/frontend-ace-images
+    jfrog.com/artifactory-repo: data-kacr-docker-hosted
+    jfrog.com/artifactory-artifact: frontend-ace-images    
+  tags:
+    - "application"
+spec:
+  type: website
+  owner: ""
+  lifecycle: "production"
